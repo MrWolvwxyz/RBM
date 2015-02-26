@@ -1,0 +1,1654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0411B239363DC56D82D34D55 /* messagepassing_trbp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 41728B30D2F5AE17F916390C /* messagepassing_trbp.hxx */; };
+		0428D0B8B72FBA28A862490E /* function_properties_base.hxx in Sources */ = {isa = PBXBuildFile; fileRef = BA0502CC04F8F3A5C2785A2B /* function_properties_base.hxx */; };
+		06B799DA699526753975FCD7 /* syntheticmodelgenerator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = CA0739CEECBF4D2ABED4DA98 /* syntheticmodelgenerator.hxx */; };
+		07185E8F72E7B60B2D99B81B /* and.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2257C95E6641A6C252E1B /* and.hxx */; };
+		07400C08BE9F7ED36C924211 /* trws.hxx in Sources */ = {isa = PBXBuildFile; fileRef = EE161681632EE9A72A3DAF64 /* trws.hxx */; };
+		0918AA0DED8FE3BAC3A676DF /* inference.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 9308BDE9E218E6CDA14A3C22 /* inference.hxx */; };
+		0B5B3E3073867E7E23F17F2D /* gibbs.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D6E5C344BEB85CDA27099ECA /* gibbs.hxx */; };
+		0C98238D9DDE96C412AE4832 /* dec_map.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A76DF68791C753E76D6C9C65 /* dec_map.hxx */; };
+		0D7B9B0AFB4144BDF670E35A /* tree_reweighted_bp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = DB80B8529425C3644B31A7D6 /* tree_reweighted_bp.hxx */; };
+		0DB04943A67F9DBA14C2B558 /* function_registration.hxx in Sources */ = {isa = PBXBuildFile; fileRef = AFAE9D2B87CA9F209CF2AC7B /* function_registration.hxx */; };
+		0F383516C0E411D819B4B4BE /* random.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 83DA4FD84ABD4342B6B67DC4 /* random.hxx */; };
+		10CDD7B88FFEB837C5365506 /* multiplier.hxx in Sources */ = {isa = PBXBuildFile; fileRef = AE49CFE155826385938EF767 /* multiplier.hxx */; };
+		13107F34EA0ABD9A813617A2 /* constant.hxx in Sources */ = {isa = PBXBuildFile; fileRef = AF0E93C4C2EB2E1D249A8E71 /* constant.hxx */; };
+		1332E03E3C84FD28CBE623C7 /* dynamicprogramming.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 85C99FFD621DF6CDC905795F /* dynamicprogramming.hxx */; };
+		13F3A5BA1AE21A8748B34DB2 /* test_inference_blackboxtest.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 9A668C851C3913B8625EF071 /* test_inference_blackboxtest.hxx */; };
+		146A4874F544D6CC104D54CA /* smoothing_to_marginals.hxx in Sources */ = {isa = PBXBuildFile; fileRef = E9878FAEE9CABECCD321EBD8 /* smoothing_to_marginals.hxx */; };
+		14B4C94A7A49C138DC60FD48 /* modelTrees.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 23457F8E06898318B09DFD38 /* modelTrees.hxx */; };
+		16105B7CDCCD02828A636B98 /* lsatr.hxx in Sources */ = {isa = PBXBuildFile; fileRef = DC213E0AFAA8FFE273EDE3C0 /* lsatr.hxx */; };
+		164D3135324441C2E6DD40D7 /* converter.hxx in Sources */ = {isa = PBXBuildFile; fileRef = E7E5E1C0D2BC3FE21A6F44FC /* converter.hxx */; };
+		16A6A599B47540689E134A20 /* metaprogramming.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 671E5472F55638E00A78572C /* metaprogramming.hxx */; };
+		1AC6ACF09C529BCC185BCA96 /* sat.hxx in Sources */ = {isa = PBXBuildFile; fileRef = CB56EDD9221D6C7E45C10203 /* sat.hxx */; };
+		1ADF6F1C021675BE8ABF9276 /* trws_trws.hxx in Sources */ = {isa = PBXBuildFile; fileRef = DFBAB45FCC44C56C2E3D41F7 /* trws_trws.hxx */; };
+		1D4B5E3EF88900745B8C037F /* mainpage.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 6C606CB140FC6285AA7E403C /* mainpage.hxx */; };
+		1DA1F9038DC14A38D29C0D95 /* test_base.hxx in Sources */ = {isa = PBXBuildFile; fileRef = E8F6773182A7EF3B42432C44 /* test_base.hxx */; };
+		1F36EC8F37144D68B9466639 /* smoothing_strategy.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 3E715E23F77A852E51D1B420 /* smoothing_strategy.hxx */; };
+		20178FC1ACAFA12FF97AD744 /* space_base.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C5C82BF834224CDA7E440 /* space_base.hxx */; };
+		246D01D1C7F37F991EE40B75 /* transportationsolver.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 862797A2EAE6907EFFA8A4A4 /* transportationsolver.hxx */; };
+		24954057FBB6FAEB5A175BFD /* dddualvariableblock.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 913A080881B2A3FF3BB96FBA /* dddualvariableblock.hxx */; };
+		24ED6F54F4E80A3D1F626BB1 /* output_debug_utils.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2C30BF366C30449FEF774647 /* output_debug_utils.hxx */; };
+		25D7D0564F69485B862A8907 /* lp_solver_glpk.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 481887039A831DFB2CD1B35C /* lp_solver_glpk.hxx */; };
+		25DF1F06536313A3CE325892 /* minstcutibfs.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 8481AF5DFDDB2750C0C44E6D /* minstcutibfs.hxx */; };
+		26B1D8301B391CC83FA3F996 /* test_functions.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 60A3B0CCCABD2F674C8F6AD1 /* test_functions.hxx */; };
+		26C101999E5421149DEB316C /* messagepassing_bp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF3B372C4BD671F0F09E22 /* messagepassing_bp.hxx */; };
+		276CBE36FD397BAEC1BAA0B7 /* loc.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 8413CD11FADA105FA9F22578 /* loc.hxx */; };
+		2A940A3471A0F2BCAF2D9381 /* weightedoperations.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 27ADE32DE851A2519C0861C0 /* weightedoperations.hxx */; };
+		2D8C10CC2C3078E441C7B2CE /* opengm.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 5162341600BD141C1A35C206 /* opengm.hxx */; };
+		3228C6CB778D458D89860E0D /* pythonfunction.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 406DBE6A076737BCCAD52774 /* pythonfunction.hxx */; };
+		33A34060EB789783878972FD /* accumulation.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D2DC5732B505EED53568FDDD /* accumulation.hxx */; };
+		3612BA50444654FD89691E4C /* alphaexpansionfusion.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F9DB8729EBFD438B0CA3 /* alphaexpansionfusion.hxx */; };
+		377CDDE111B9D0DA4E3F916C /* config.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 278CAFD89B58771555C87836 /* config.hxx */; };
+		37E49F5BE36E867E14AA8C1D /* swendsenwang.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B264BD880CA522C0CA576B5F /* swendsenwang.hxx */; };
+		3811738684DF6203F913FB65 /* graphicalmodeldecomposer.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 4FA32219432FA7D3F9ACE67C /* graphicalmodeldecomposer.hxx */; };
+		39C36167058B6F6FC489C33D /* graphicalmodeldecomposition.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 60EF69313046E31974F0319C /* graphicalmodeldecomposition.hxx */; };
+		3A3B6ACEF3F46F3FD5BB9BFD /* singlesitefunction.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 698BD428B1F83F938B037B84 /* singlesitefunction.hxx */; };
+		3C5750C4E89DBFC2D32C6061 /* numpyview.hxx in Sources */ = {isa = PBXBuildFile; fileRef = BCD8001A371D64362F71F429 /* numpyview.hxx */; };
+		3C638D44A0492E60C5E4E418 /* qpbo.hxx in Sources */ = {isa = PBXBuildFile; fileRef = C144BE7F9BBAEE17BC16C72A /* qpbo.hxx */; };
+		3CA02AEAA1E29B2A217BCB71 /* self_fusion.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 962FFAE1F604DDAF38DCF719 /* self_fusion.hxx */; };
+		3EC46770D20F885560D5ACD3 /* lp_solver_interface.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2EE16D0D948DC00C7FA011D2 /* lp_solver_interface.hxx */; };
+		3F40360EB51399F6F23F1BB1 /* functors.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D311F2FC202DE8B47CC1DEE4 /* functors.hxx */; };
+		3FC033B76D93AA012F5DF98F /* mplp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F92017461B396894DF92D /* mplp.hxx */; };
+		3FDAAA8323C317CB239E94BB /* utilities2.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B954B3A87EB755BE21DF4E3E /* utilities2.hxx */; };
+		40333320133FC6AD0FFCA0AC /* fieldofexperts.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DCD92D09B8DDA2B31CF0F /* fieldofexperts.hxx */; };
+		40B353494468DEEB363AEA37 /* lpgurobi.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 002841DD7EAE2335E8DE1111 /* lpgurobi.hxx */; };
+		41B6A94AFB7EDB09FC9749AD /* lpcplex.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 236C27195CE6ABBEC2BE49B1 /* lpcplex.hxx */; };
+		420D3036E923B62092608A11 /* factorgraph.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D62BC4C0FF95E583193CB238 /* factorgraph.hxx */; };
+		421C575423E5583CB53D481E /* simplediscretespace.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 11349D20D5E59D27DB843507 /* simplediscretespace.hxx */; };
+		42C109207D57A790056A6DD4 /* graphicalmodel_function_wrapper.hxx in Sources */ = {isa = PBXBuildFile; fileRef = EC80F7DA2CE41622B36088F9 /* graphicalmodel_function_wrapper.hxx */; };
+		438A74FADD92BE1DE1EBA8DB /* graphicalmodel_factor_accumulator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = F1EE9618E52FD7F0AEDA4952 /* graphicalmodel_factor_accumulator.hxx */; };
+		4408D4DEE6EEC01C6CD815B4 /* inferencetester.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 8D411379A26933F91D8DC69F /* inferencetester.hxx */; };
+		4433DF37BC069971755EE893 /* mrflib.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 10F54AB914ABB3432CA62C54 /* mrflib.hxx */; };
+		450FB80809B47A62A9535E48 /* explicit_function.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B408D4E177BA0F15BD7A024D /* explicit_function.hxx */; };
+		48A65A9D1A07DF682972A620 /* modelviewfunction.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 72491618C1EDE9A415A4A694 /* modelviewfunction.hxx */; };
+		4A9525F00DFB1B9045665560 /* vector_view_space.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B2A4877C864ED7C205B89196 /* vector_view_space.hxx */; };
+		4D18820A1DF5AA54C74B9986 /* alphabetaswap.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A7FF93021FC51B6D13394CF2 /* alphabetaswap.hxx */; };
+		4DC7391EBF3438378454EBB4 /* exact.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B7CB28169F0410A0CC60379B /* exact.hxx */; };
+		4E106B4275BA6406127CF56F /* infandflip.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 8ECBEC66DACF0EBD75A753FC /* infandflip.hxx */; };
+		4EDF2256B6967675FAA84B67 /* accessor_iterator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A11C4F9AFACBD03F5CCAAABC /* accessor_iterator.hxx */; };
+		4F8602E2D7BA8DA7C173DC25 /* blackboxtestgrid.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 26A396BF9FC31EBE0AE71905 /* blackboxtestgrid.hxx */; };
+		50136B67A9F676688AED8711 /* fusion_based_inf.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 393E953F858032D4098D1660 /* fusion_based_inf.hxx */; };
+		52062C5934772CD175E8698F /* viewspace.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 427E783590D4C7098C3A1624 /* viewspace.hxx */; };
+		54D953D4D9D5663CC1382E85 /* graphicalmodel_factor_operator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 0204D3DBE68F3828BC547E85 /* graphicalmodel_factor_operator.hxx */; };
+		550C05793ADF96EA229F76BF /* fastPD.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 54C15A581474CEF3CF3E3AA4 /* fastPD.hxx */; };
+		570FBE5F47BA6EC2D95F680C /* randomaccessset.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3314BACD7B6805408C902 /* randomaccessset.hxx */; };
+		57C8BFC34AFCACB9A79093ED /* operator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = DB472DA2AC8149D29EAAB348 /* operator.hxx */; };
+		58D1A0E8692E6AB9F3455BD0 /* view_convert_function.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 81FBC375443BDBD628C1EA36 /* view_convert_function.hxx */; };
+		5A74A7CDE5A57B7B34CE9DDD /* alphaexpansion.hxx in Sources */ = {isa = PBXBuildFile; fileRef = F037A7876FD9486A438BD4A6 /* alphaexpansion.hxx */; };
+		5A9840BA5C952D4D86E8C884 /* messagepassing_operations.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 91A20150BBBA08DA6C36DC2C /* messagepassing_operations.hxx */; };
+		5AFA7E0E4571BBCDDE4247A3 /* greedygremlin.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 0B4FA342014F0E7F819CFCD6 /* greedygremlin.hxx */; };
+		5AFB5FA63C4F7DB02A3FEE44 /* lpdef.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 040C796DFCEECDAECEC6E2E0 /* lpdef.hxx */; };
+		5B0D9B48770EA87057BB4AC0 /* blackboxtestbase.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 6DA223E9A990394CD3861A20 /* blackboxtestbase.hxx */; };
+		604530A19FF32BF5BF992ACB /* disjoint-set.hxx in Sources */ = {isa = PBXBuildFile; fileRef = ECC0AC5AE166A13758CF5D24 /* disjoint-set.hxx */; };
+		6130767C0F04C48BF55E254C /* truncated_absolute_difference.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B509A9C1FCA5D831AD516F74 /* truncated_absolute_difference.hxx */; };
+		616CA425A6942B5E5E0098E1 /* multicut.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D06F0069392034C0D65F41E /* multicut.hxx */; };
+		6236337A61D82151594DEDDF /* normalize.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 9261AA0E55065032F357200E /* normalize.hxx */; };
+		62C1213DC961F730021EF997 /* macros.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 651896CB1C1CDEF5322D26FE /* macros.hxx */; };
+		6383A9E1DA8E037BC4F48BE7 /* dualdecomposition_bundle.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 37E913DC3054D8EA28CF8826 /* dualdecomposition_bundle.hxx */; };
+		63B8008C5E75A26F7CCF85E0 /* config.hxx.cmake in Sources */ = {isa = PBXBuildFile; fileRef = FF0AE62258114E253D7C1C39 /* config.hxx.cmake */; };
+		73F18063EEC9F4489742355A /* grante.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 93AFAB1F7E2D0BA4F1C6DF8C /* grante.hxx */; };
+		78540D5C556199F6F2151A10 /* trws_decomposition.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFBD3F522DEC5E3037B56F /* trws_decomposition.hxx */; };
+		7893E1F2446DE2BD9A51C672 /* gibbs.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 430590729A2F7EBFAEB56660 /* gibbs.hxx */; };
+		78DAD81DCF5C123CC6744CDF /* sorting.hxx in Sources */ = {isa = PBXBuildFile; fileRef = EA7C9271CC4BD4D733FD70B5 /* sorting.hxx */; };
+		7E8B5C095706D8A69409337C /* maximizer.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A952944CC7A7F1CBEC7AF36A /* maximizer.hxx */; };
+		7EA83075D79963DF33143650 /* mean_field.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2C82B58D51F9E25F2A76B /* mean_field.hxx */; };
+		7FBA57F768B9FF0FD92FD39A /* grid_space.hxx in Sources */ = {isa = PBXBuildFile; fileRef = C73219CF76E47152948643E9 /* grid_space.hxx */; };
+		8101966A18544B3B966DB6A5 /* astar.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 5A295E448F7052ED2AB52651 /* astar.hxx */; };
+		8187A2FF449C420AB440016F /* timer.hxx in Sources */ = {isa = PBXBuildFile; fileRef = E23649D10440372250FE7285 /* timer.hxx */; };
+		8216E62253204B609AC35187 /* graphicalmodel_hdf5.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A19179442E7FCC8C0EE4EA5B /* graphicalmodel_hdf5.hxx */; };
+		83D9A8DEBC8D088B75E6B189 /* graphicalmodel_factor.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 103B38573641D4DBE5A69700 /* graphicalmodel_factor.hxx */; };
+		84316B063F2561C516874EC4 /* blackboxtestfull.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 42A205E2F8C09E0F15148A7F /* blackboxtestfull.hxx */; };
+		85347017ADEAE13ED62CC0F2 /* visitors.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 082F7DFCFFEC315CE4B0D31E /* visitors.hxx */; };
+		85E2ABD01D1A46A5135D3DDC /* double_loop_generalized_bp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 980BC85D133AA69E28F36165 /* double_loop_generalized_bp.hxx */; };
+		8A08739CEB5A438B9FB29D44 /* submodel_builder.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A465645B85B10EEAD649EAA0 /* submodel_builder.hxx */; };
+		8B1D46FCA89A14974FC2CCC5 /* ad3.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 96656CECF0E7B29911305E73 /* ad3.hxx */; };
+		8B43EF0A24E90A692F823690 /* pottsn.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 1508645DFA4AC0B7F5EE30E1 /* pottsn.hxx */; };
+		8E9E5C73731891B331E2A670 /* scaled_view.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 3521A269DF3C4A60BD10B5CC /* scaled_view.hxx */; };
+		90DF7FD6E88F796AD44D7F6F /* trws_reparametrization.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 4617C5CDD50FFFB3D8AD74A8 /* trws_reparametrization.hxx */; };
+		92BB4B5F6F29BA9164BBB894 /* pottsg.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 70E0F64C1A294A5F0808F8AD /* pottsg.hxx */; };
+		9311882519EC440CFA9C9E02 /* test_hdf5_file.hxx in Sources */ = {isa = PBXBuildFile; fileRef = E894BD70760714DF8ABAB33D /* test_hdf5_file.hxx */; };
+		947EA02FD92CABF040C9C3D6 /* indexing.hxx in Sources */ = {isa = PBXBuildFile; fileRef = EC00DDE4CEB9F81BB9B802DA /* indexing.hxx */; };
+		950BAF38DFDD96D7E4E63CDA /* adder.hxx in Sources */ = {isa = PBXBuildFile; fileRef = F42A75CD5F7A28C9087F1DFF /* adder.hxx */; };
+		966510945611C83CE5B5987E /* test_blackbox.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 92750400AAAB275307080890 /* test_blackbox.hxx */; };
+		9670DC25C5CDF2F9321C6A5C /* or.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2038C78C92428FED4ED8B15F /* or.hxx */; };
+		971C275BC27B31591EC0F195 /* marray_hdf5.hxx in Sources */ = {isa = PBXBuildFile; fileRef = E485C5FD2F6BB0D4DE4947F3 /* marray_hdf5.hxx */; };
+		9825575B8DAD4102F4A76A26 /* smooth_nesterov.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 98A645D676AE0EE1F2FB02B9 /* smooth_nesterov.hxx */; };
+		994AFF898B23BC9945DBECCB /* bruteforce.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF5A14BBBC24DABC2DBE79 /* bruteforce.hxx */; };
+		99B1A058157476B782F8E681 /* discretespace.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 743B009BF47EA329984D09BE /* discretespace.hxx */; };
+		99C603B9B48E227FABA1382F /* tree_expectation_propagation.hxx in Sources */ = {isa = PBXBuildFile; fileRef = BEEA72516C6419181D9B1FA5 /* tree_expectation_propagation.hxx */; };
+		9DB00920E9F643E048C58931 /* minimizer.hxx in Sources */ = {isa = PBXBuildFile; fileRef = ED740CBD4FDF1856651CFCD5 /* minimizer.hxx */; };
+		9FF9606114A0051910172891 /* bp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 76FD20C0DA0FC902DD8DAB17 /* bp.hxx */; };
+		A274D8CA5A6558B01FB1077E /* qpbo.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AD69E9A5DEA12914F3051 /* qpbo.hxx */; };
+		A34F2B3C100630858907B63A /* lp_reparametrization.hxx in Sources */ = {isa = PBXBuildFile; fileRef = FCDEFA5B096226F90924259D /* lp_reparametrization.hxx */; };
+		A427E19643668BC462FB2188 /* messagepassing.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D6D618A433DA583177D91E5F /* messagepassing.hxx */; };
+		A471F9CF56B8532EA67DD91C /* truncated_squared_difference.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 749D7C01E002BCA8D3A207FB /* truncated_squared_difference.hxx */; };
+		A5615C67D7BA449A1D740D98 /* blackboxteststar.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 7D47240405AB63076C6D9839 /* blackboxteststar.hxx */; };
+		A5CDCBAD022CC101FC0E7A63 /* graphcut.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D92314448EF6E0461304A50C /* graphcut.hxx */; };
+		A6173B7F76B3199F40C959C7 /* fast_sequence.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 984DA1C1AB297297587C99D5 /* fast_sequence.hxx */; };
+		A6A13EFC591E96724290BD74 /* trws_adsal.hxx in Sources */ = {isa = PBXBuildFile; fileRef = AE32ACA092EE4528A8208DF5 /* trws_adsal.hxx */; };
+		A7F9EB21F4836B5F1CC36841 /* gco.hxx in Sources */ = {isa = PBXBuildFile; fileRef = F4BDF481D11B5F855272C6B5 /* gco.hxx */; };
+		A88E5CE6D5786CF7D252F9E6 /* parameters.hxx in Sources */ = {isa = PBXBuildFile; fileRef = C8BAB0939DB2D0E5A4E7A7C8 /* parameters.hxx */; };
+		A9EB4D8E484C28F9317F1B24 /* trws_subproblemsolver.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 0C441A721C0732FFB2CBE0D4 /* trws_subproblemsolver.hxx */; };
+		B092AAD7C4EAA81FDFD0B201 /* marray.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 93B7F109617828F9B8A9457A /* marray.hxx */; };
+		B1919155572F100F77F2F6BF /* LICENSE.txt in Sources */ = {isa = PBXBuildFile; fileRef = 1FE20EEA2141F035D4B98180 /* LICENSE.txt */; };
+		B31446D224F5C822C6FBE917 /* fusion_mover.hxx in Sources */ = {isa = PBXBuildFile; fileRef = FEC77CB030BE4BF40B032FA1 /* fusion_mover.hxx */; };
+		B388B5F0E8F2B7C8F18A0044 /* lazyflipper.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D59F44806D3018FEFB1E6F28 /* lazyflipper.hxx */; };
+		B545DA4E993B3D1A3DFDE9CE /* hqpbo.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B5CC6E57BB8C6AEEEC70905A /* hqpbo.hxx */; };
+		B8019178937471B25EDE3C74 /* shape_accessor.hxx in Sources */ = {isa = PBXBuildFile; fileRef = E55F3D27F5746FC55C23DB64 /* shape_accessor.hxx */; };
+		BA1A8E6C1A3B6BF6F7C3D86D /* view.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 7870C704836DDA505C53C04F /* view.hxx */; };
+		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		BBFA894F593F2E0256A697C0 /* potts.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 9A5CBD8CEF628C67A0AE81A9 /* potts.hxx */; };
+		BD0EE6BDB19E328496248B40 /* tribool.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 9A52347DDA913C11E771EC79 /* tribool.hxx */; };
+		BE347B0D526CA74818FB78DA /* movemaker.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 3E4A604804605E62ADA9D754 /* movemaker.hxx */; };
+		C06B5DD64664ED0794F09368 /* absolute_difference.hxx in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3C7FA746322CC60224AA /* absolute_difference.hxx */; };
+		C10D6F2BBA08C1DEBFB3A336 /* inference.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 0480839F623C4D251ADB2C1C /* inference.hxx */; };
+		C165C4EE9CEE99C1E7434ADB /* graphicalmodel_manipulator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A528AA2EF00413D63A8A7BB4 /* graphicalmodel_manipulator.hxx */; };
+		C3CEBBA7060347246843F765 /* combilp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B58FA67E1CFF1D44B17D242E /* combilp.hxx */; };
+		C673EC168C28E45A68EDFA27 /* daoopt.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A8AB1A1B00D651B1DF394DCA /* daoopt.hxx */; };
+		C7DC942C1C8CAE25B523603D /* dualdecomposition_base.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D0EF4DFA4EDBF9857D013B4C /* dualdecomposition_base.hxx */; };
+		C809837C51ECA5183FD00A74 /* graphicalmodel_explicit_storage.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3B9633C2F1182756D5B19 /* graphicalmodel_explicit_storage.hxx */; };
+		CB593553FC3CF76E66F68741 /* mqpbo.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2382219A66528D32D61C83D5 /* mqpbo.hxx */; };
+		CBDE6EE962EF3CB670E6EEBA /* buffer_vector.hxx in Sources */ = {isa = PBXBuildFile; fileRef = C83DDD16F43A7FDAC7EA083B /* buffer_vector.hxx */; };
+		CC2A890AE54CA6F866BE755F /* minstcutkolmogorov.hxx in Sources */ = {isa = PBXBuildFile; fileRef = AECC78F7B117CA1D5DD9EF7A /* minstcutkolmogorov.hxx */; };
+		CD8806C522790CE5AC8058BA /* primal_lpbound.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 89FF081BA8F0934CFD443FB5 /* primal_lpbound.hxx */; };
+		D06B0C5E3BAB0ECF6AA33AA0 /* partition-move.hxx in Sources */ = {isa = PBXBuildFile; fileRef = DC956CF9CD1EE8E2E92D7C1F /* partition-move.hxx */; };
+		D2D4BBE549921E2518CA4A83 /* graphicalmodel.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 2753F602E0A7A852E50D585E /* graphicalmodel.hxx */; };
+		D5E2892B9C2B8DCA92DE7C8F /* opengmpython.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9D84FC7FED52D7905F4F8 /* opengmpython.hxx */; };
+		D67B1341E3B76E65CD939870 /* static_simplediscretespace.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 6F78B7EAA250F317BB9497BB /* static_simplediscretespace.hxx */; };
+		D8E828D19DB0CDC73C7BA2FF /* messagepassing_operations_withFunctors.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 89F4D5841D1B98FB983CF35F /* messagepassing_operations_withFunctors.hxx */; };
+		D95C5AAEE2809D5851F7DC38 /* lp_solver_cplex.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 49AC7C9C6CB7E2E0E3928230 /* lp_solver_cplex.hxx */; };
+		DA4AADF4699928F614476C5E /* syntheticmodelgenerator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = DD26FDD374CD1513748BE1F7 /* syntheticmodelgenerator.hxx */; };
+		DAA61A7A68E9DDE2329A33CD /* function_properties.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4806DAC87EAF690A1B650 /* function_properties.hxx */; };
+		DB82270AE301AB94F1CE7665 /* sparsemarray.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 15282F5B022AA764ECD1EF72 /* sparsemarray.hxx */; };
+		DBFE8D1F9215B5454C7361F7 /* minstcutboost.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 67B0D124C03F7B302CE962BA /* minstcutboost.hxx */; };
+		DCD4AAB7A75548CD7963C363 /* vector_view.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 34771211A763500FF82AA91C /* vector_view.hxx */; };
+		DEB2AFDBF6FF8AE852608310 /* loop_corrected_bp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = E333CBB49999C51CC11874EB /* loop_corrected_bp.hxx */; };
+		DF8980E52CBEE5AE1F7B7323 /* meminfo.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 07C2724B1B96BC146649D2BB /* meminfo.hxx */; };
+		E220028FC6CC721920FDCF24 /* test.hxx in Sources */ = {isa = PBXBuildFile; fileRef = B9F68C8B8B290888C55A464D /* test.hxx */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E44E359C649DF358E9E738DF /* partition.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 13AEB5087901183DA8A2FD98 /* partition.hxx */; };
+		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
+		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
+		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
+		E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */; };
+		E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */; };
+		E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9770E8CC7DD009D7055 /* CoreServices.framework */; };
+		E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9790E8CC7DD009D7055 /* OpenGL.framework */; };
+		E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
+		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
+		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
+		E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		E65D2BA14BCDF8DFBFD94999 /* l_potts.hxx in Sources */ = {isa = PBXBuildFile; fileRef = ED0E58C57EF36C0E2B0FC933 /* l_potts.hxx */; };
+		E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */; };
+		E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
+		E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
+		E8F61AFC887871BB103E2A58 /* lp_solver_gurobi.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 79CD7973D4E4BD8700E10981 /* lp_solver_gurobi.hxx */; };
+		EAADD0604346F0D0BF97F6AA /* reducedinference.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 4784A9C0A5B0461E07E19B69 /* reducedinference.hxx */; };
+		EC7708F667DD347B48EEDD20 /* trws_base.hxx in Sources */ = {isa = PBXBuildFile; fileRef = C10115B328557998A6BF2C41 /* trws_base.hxx */; };
+		EF08B52765A5B95EBA49AFBE /* accumulator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D5E9ACE1CB1061E59EAF86DC /* accumulator.hxx */; };
+		F04D5AD7541742872A5344BF /* messagepassing_buffer.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 6B8436DA1C8171F0C879B7DE /* messagepassing_buffer.hxx */; };
+		F04E73ADE8740F7C9A9156DB /* view_fix_variables_function.hxx in Sources */ = {isa = PBXBuildFile; fileRef = A13A1FA900143C6C67A340A8 /* view_fix_variables_function.hxx */; };
+		F0A1F47F47FBDF2363F3168C /* lp_reparametrization_hdf5.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 24AFCB168BF7020122F6C73B /* lp_reparametrization_hdf5.hxx */; };
+		F0CBB08970AD5EA4B5E74CD6 /* icm.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 0E5FB865D47F2D0F93C22C97 /* icm.hxx */; };
+		F306365FB7E6470342F18359 /* readme.txt in Sources */ = {isa = PBXBuildFile; fileRef = D2F70A52E14FE08B87BEF3B6 /* readme.txt */; };
+		F3081B7F7F7CD4B2D5611962 /* blackboxtester.hxx in Sources */ = {isa = PBXBuildFile; fileRef = D30879188E58079ED69AE15B /* blackboxtester.hxx */; };
+		F368774FB1DE8DDEF413D2A2 /* dualdecomposition_subgradient.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF83B4FA99F198EF50ED85 /* dualdecomposition_subgradient.hxx */; };
+		F4EEDBD83A5FC3CFD650CF5E /* test_empty.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 896A641EA561F1F56B1639A8 /* test_empty.hxx */; };
+		F5581D52C13A873A06F0C18B /* integrator.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 851F5D288CB3F678DA3CA357 /* integrator.hxx */; };
+		F91097471EAB99F79FF33E90 /* sparsemarray.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A0A1530F6E65DEBE761D6 /* sparsemarray.hxx */; };
+		F9D3B7ED8911B8EF75F88FD8 /* squared_difference.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 773E070C6D93F24B31129898 /* squared_difference.hxx */; };
+		FA695B61D05969888201067D /* junction_tree.hxx in Sources */ = {isa = PBXBuildFile; fileRef = C47CF444BBC1D88532012531 /* junction_tree.hxx */; };
+		FB89BB0B0E816CBAD762AE4A /* test_multimode.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 3591E68A340223A63BF36B19 /* test_multimode.hxx */; };
+		FBB0E4BD46EB8CDDD721C9E0 /* README.txt in Sources */ = {isa = PBXBuildFile; fileRef = 7B3B7E8D4E81D65857D8471E /* README.txt */; };
+		FC574E222D16E521953FD4EA /* fractional_bp.hxx in Sources */ = {isa = PBXBuildFile; fileRef = 8993119AFCAA866D7FD971BE /* fractional_bp.hxx */; };
+		FDBCA0582A1300D9E3D84F91 /* buffer_randomaccessset.hxx in Sources */ = {isa = PBXBuildFile; fileRef = C22C0193307295E3C234E6A0 /* buffer_randomaccessset.hxx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		002841DD7EAE2335E8DE1111 /* lpgurobi.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lpgurobi.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/lpgurobi.hxx; sourceTree = SOURCE_ROOT; };
+		016D18E0F925BBFED0D9C273 /* typeView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = typeView.h; path = ../../../addons/ofxopengm/src/opengm/inference/external/typeView.h; sourceTree = SOURCE_ROOT; };
+		0204D3DBE68F3828BC547E85 /* graphicalmodel_factor_operator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodel_factor_operator.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphicalmodel_factor_operator.hxx; sourceTree = SOURCE_ROOT; };
+		040C796DFCEECDAECEC6E2E0 /* lpdef.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lpdef.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/lpdef.hxx; sourceTree = SOURCE_ROOT; };
+		0480839F623C4D251ADB2C1C /* inference.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = inference.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/inference.hxx; sourceTree = SOURCE_ROOT; };
+		07C2724B1B96BC146649D2BB /* meminfo.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = meminfo.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/meminfo.hxx; sourceTree = SOURCE_ROOT; };
+		082F7DFCFFEC315CE4B0D31E /* visitors.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = visitors.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/visitors/visitors.hxx; sourceTree = SOURCE_ROOT; };
+		0AE2C82B58D51F9E25F2A76B /* mean_field.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = mean_field.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/mean_field.hxx; sourceTree = SOURCE_ROOT; };
+		0B4FA342014F0E7F819CFCD6 /* greedygremlin.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = greedygremlin.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/greedygremlin.hxx; sourceTree = SOURCE_ROOT; };
+		0C441A721C0732FFB2CBE0D4 /* trws_subproblemsolver.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = trws_subproblemsolver.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/trws_subproblemsolver.hxx; sourceTree = SOURCE_ROOT; };
+		0E5FB865D47F2D0F93C22C97 /* icm.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = icm.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/icm.hxx; sourceTree = SOURCE_ROOT; };
+		103B38573641D4DBE5A69700 /* graphicalmodel_factor.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodel_factor.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphicalmodel_factor.hxx; sourceTree = SOURCE_ROOT; };
+		10F54AB914ABB3432CA62C54 /* mrflib.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = mrflib.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/mrflib.hxx; sourceTree = SOURCE_ROOT; };
+		11349D20D5E59D27DB843507 /* simplediscretespace.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = simplediscretespace.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/space/simplediscretespace.hxx; sourceTree = SOURCE_ROOT; };
+		13AEB5087901183DA8A2FD98 /* partition.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = partition.hxx; path = ../../../addons/ofxopengm/src/opengm/datastructures/partition.hxx; sourceTree = SOURCE_ROOT; };
+		1508645DFA4AC0B7F5EE30E1 /* pottsn.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = pottsn.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/pottsn.hxx; sourceTree = SOURCE_ROOT; };
+		15282F5B022AA764ECD1EF72 /* sparsemarray.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = sparsemarray.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/sparsemarray.hxx; sourceTree = SOURCE_ROOT; };
+		1EDF5A14BBBC24DABC2DBE79 /* bruteforce.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = bruteforce.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/bruteforce.hxx; sourceTree = SOURCE_ROOT; };
+		1FE20EEA2141F035D4B98180 /* LICENSE.txt */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = LICENSE.txt; path = "../../../addons/ofxopengm/src/opengm/inference/fix-fusion/LICENSE.txt"; sourceTree = SOURCE_ROOT; };
+		2038C78C92428FED4ED8B15F /* or.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = or.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/or.hxx; sourceTree = SOURCE_ROOT; };
+		23457F8E06898318B09DFD38 /* modelTrees.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = modelTrees.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/modelTrees.hxx; sourceTree = SOURCE_ROOT; };
+		236C27195CE6ABBEC2BE49B1 /* lpcplex.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lpcplex.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/lpcplex.hxx; sourceTree = SOURCE_ROOT; };
+		2382219A66528D32D61C83D5 /* mqpbo.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = mqpbo.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/mqpbo.hxx; sourceTree = SOURCE_ROOT; };
+		24AFCB168BF7020122F6C73B /* lp_reparametrization_hdf5.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lp_reparametrization_hdf5.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/lp_reparametrization_hdf5.hxx; sourceTree = SOURCE_ROOT; };
+		26A396BF9FC31EBE0AE71905 /* blackboxtestgrid.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = blackboxtestgrid.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/blackboxtests/blackboxtestgrid.hxx; sourceTree = SOURCE_ROOT; };
+		2753F602E0A7A852E50D585E /* graphicalmodel.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodel.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphicalmodel.hxx; sourceTree = SOURCE_ROOT; };
+		278CAFD89B58771555C87836 /* config.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = config.hxx; path = ../../../addons/ofxopengm/src/opengm/config.hxx; sourceTree = SOURCE_ROOT; };
+		27ADE32DE851A2519C0861C0 /* weightedoperations.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = weightedoperations.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/weightedoperations.hxx; sourceTree = SOURCE_ROOT; };
+		2A0DCD92D09B8DDA2B31CF0F /* fieldofexperts.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = fieldofexperts.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/fieldofexperts.hxx; sourceTree = SOURCE_ROOT; };
+		2AA3314BACD7B6805408C902 /* randomaccessset.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = randomaccessset.hxx; path = ../../../addons/ofxopengm/src/opengm/datastructures/randomaccessset.hxx; sourceTree = SOURCE_ROOT; };
+		2C30BF366C30449FEF774647 /* output_debug_utils.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = output_debug_utils.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/output_debug_utils.hxx; sourceTree = SOURCE_ROOT; };
+		2D06F0069392034C0D65F41E /* multicut.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = multicut.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/multicut.hxx; sourceTree = SOURCE_ROOT; };
+		2EDFBD3F522DEC5E3037B56F /* trws_decomposition.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = trws_decomposition.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/trws_decomposition.hxx; sourceTree = SOURCE_ROOT; };
+		2EE16D0D948DC00C7FA011D2 /* lp_solver_interface.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lp_solver_interface.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/lp_solver/lp_solver_interface.hxx; sourceTree = SOURCE_ROOT; };
+		34771211A763500FF82AA91C /* vector_view.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = vector_view.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/vector_view.hxx; sourceTree = SOURCE_ROOT; };
+		3521A269DF3C4A60BD10B5CC /* scaled_view.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = scaled_view.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/scaled_view.hxx; sourceTree = SOURCE_ROOT; };
+		3591E68A340223A63BF36B19 /* test_multimode.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = test_multimode.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/inferencetests/test_multimode.hxx; sourceTree = SOURCE_ROOT; };
+		37E913DC3054D8EA28CF8826 /* dualdecomposition_bundle.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = dualdecomposition_bundle.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/dualdecomposition/dualdecomposition_bundle.hxx; sourceTree = SOURCE_ROOT; };
+		393E953F858032D4098D1660 /* fusion_based_inf.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = fusion_based_inf.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/fusion_based_inf.hxx; sourceTree = SOURCE_ROOT; };
+		3D0AD69E9A5DEA12914F3051 /* qpbo.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = qpbo.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/qpbo.hxx; sourceTree = SOURCE_ROOT; };
+		3E4A604804605E62ADA9D754 /* movemaker.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = movemaker.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/movemaker.hxx; sourceTree = SOURCE_ROOT; };
+		3E715E23F77A852E51D1B420 /* smoothing_strategy.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = smoothing_strategy.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/smoothing_strategy.hxx; sourceTree = SOURCE_ROOT; };
+		406DBE6A076737BCCAD52774 /* pythonfunction.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = pythonfunction.hxx; path = ../../../addons/ofxopengm/src/opengm/python/pythonfunction.hxx; sourceTree = SOURCE_ROOT; };
+		41728B30D2F5AE17F916390C /* messagepassing_trbp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = messagepassing_trbp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/messagepassing/messagepassing_trbp.hxx; sourceTree = SOURCE_ROOT; };
+		427E783590D4C7098C3A1624 /* viewspace.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = viewspace.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/space/viewspace.hxx; sourceTree = SOURCE_ROOT; };
+		42A205E2F8C09E0F15148A7F /* blackboxtestfull.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = blackboxtestfull.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/blackboxtests/blackboxtestfull.hxx; sourceTree = SOURCE_ROOT; };
+		430590729A2F7EBFAEB56660 /* gibbs.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = gibbs.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/gibbs.hxx; sourceTree = SOURCE_ROOT; };
+		4617C5CDD50FFFB3D8AD74A8 /* trws_reparametrization.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = trws_reparametrization.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/trws_reparametrization.hxx; sourceTree = SOURCE_ROOT; };
+		4784A9C0A5B0461E07E19B69 /* reducedinference.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = reducedinference.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/reducedinference.hxx; sourceTree = SOURCE_ROOT; };
+		481887039A831DFB2CD1B35C /* lp_solver_glpk.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lp_solver_glpk.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/lp_solver/lp_solver_glpk.hxx; sourceTree = SOURCE_ROOT; };
+		49AC7C9C6CB7E2E0E3928230 /* lp_solver_cplex.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lp_solver_cplex.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/lp_solver/lp_solver_cplex.hxx; sourceTree = SOURCE_ROOT; };
+		4E3F92017461B396894DF92D /* mplp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = mplp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/mplp.hxx; sourceTree = SOURCE_ROOT; };
+		4F6C5C82BF834224CDA7E440 /* space_base.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = space_base.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/space/space_base.hxx; sourceTree = SOURCE_ROOT; };
+		4FA32219432FA7D3F9ACE67C /* graphicalmodeldecomposer.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodeldecomposer.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/decomposition/graphicalmodeldecomposer.hxx; sourceTree = SOURCE_ROOT; };
+		4FFF83B4FA99F198EF50ED85 /* dualdecomposition_subgradient.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = dualdecomposition_subgradient.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/dualdecomposition/dualdecomposition_subgradient.hxx; sourceTree = SOURCE_ROOT; };
+		5162341600BD141C1A35C206 /* opengm.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = opengm.hxx; path = ../../../addons/ofxopengm/src/opengm/opengm.hxx; sourceTree = SOURCE_ROOT; };
+		54C15A581474CEF3CF3E3AA4 /* fastPD.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = fastPD.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/fastPD.hxx; sourceTree = SOURCE_ROOT; };
+		5A295E448F7052ED2AB52651 /* astar.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = astar.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/astar.hxx; sourceTree = SOURCE_ROOT; };
+		5AB9D84FC7FED52D7905F4F8 /* opengmpython.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = opengmpython.hxx; path = ../../../addons/ofxopengm/src/opengm/python/opengmpython.hxx; sourceTree = SOURCE_ROOT; };
+		5C68F9DB8729EBFD438B0CA3 /* alphaexpansionfusion.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaexpansionfusion.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/alphaexpansionfusion.hxx; sourceTree = SOURCE_ROOT; };
+		60A3B0CCCABD2F674C8F6AD1 /* test_functions.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = test_functions.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/inferencetests/test_functions.hxx; sourceTree = SOURCE_ROOT; };
+		60EF69313046E31974F0319C /* graphicalmodeldecomposition.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodeldecomposition.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/decomposition/graphicalmodeldecomposition.hxx; sourceTree = SOURCE_ROOT; };
+		651896CB1C1CDEF5322D26FE /* macros.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = macros.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/macros.hxx; sourceTree = SOURCE_ROOT; };
+		671E5472F55638E00A78572C /* metaprogramming.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = metaprogramming.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/metaprogramming.hxx; sourceTree = SOURCE_ROOT; };
+		67B0D124C03F7B302CE962BA /* minstcutboost.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = minstcutboost.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/minstcutboost.hxx; sourceTree = SOURCE_ROOT; };
+		698BD428B1F83F938B037B84 /* singlesitefunction.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = singlesitefunction.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/singlesitefunction.hxx; sourceTree = SOURCE_ROOT; };
+		6B8436DA1C8171F0C879B7DE /* messagepassing_buffer.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = messagepassing_buffer.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/messagepassing/messagepassing_buffer.hxx; sourceTree = SOURCE_ROOT; };
+		6B92B2F7C06B66311C10D4F3 /* fusion-move.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "fusion-move.hpp"; path = "../../../addons/ofxopengm/src/opengm/inference/fix-fusion/fusion-move.hpp"; sourceTree = SOURCE_ROOT; };
+		6C606CB140FC6285AA7E403C /* mainpage.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = mainpage.hxx; path = ../../../addons/ofxopengm/src/opengm/doxygen/mainpage.hxx; sourceTree = SOURCE_ROOT; };
+		6DA223E9A990394CD3861A20 /* blackboxtestbase.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = blackboxtestbase.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/blackboxtests/blackboxtestbase.hxx; sourceTree = SOURCE_ROOT; };
+		6F78B7EAA250F317BB9497BB /* static_simplediscretespace.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = static_simplediscretespace.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/space/static_simplediscretespace.hxx; sourceTree = SOURCE_ROOT; };
+		70E0F64C1A294A5F0808F8AD /* pottsg.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = pottsg.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/pottsg.hxx; sourceTree = SOURCE_ROOT; };
+		72491618C1EDE9A415A4A694 /* modelviewfunction.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = modelviewfunction.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/modelviewfunction.hxx; sourceTree = SOURCE_ROOT; };
+		743B009BF47EA329984D09BE /* discretespace.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = discretespace.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/space/discretespace.hxx; sourceTree = SOURCE_ROOT; };
+		749D7C01E002BCA8D3A207FB /* truncated_squared_difference.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = truncated_squared_difference.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/truncated_squared_difference.hxx; sourceTree = SOURCE_ROOT; };
+		76FD20C0DA0FC902DD8DAB17 /* bp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = bp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/bp.hxx; sourceTree = SOURCE_ROOT; };
+		773E070C6D93F24B31129898 /* squared_difference.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = squared_difference.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/squared_difference.hxx; sourceTree = SOURCE_ROOT; };
+		7870C704836DDA505C53C04F /* view.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = view.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/view.hxx; sourceTree = SOURCE_ROOT; };
+		79CD7973D4E4BD8700E10981 /* lp_solver_gurobi.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lp_solver_gurobi.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/lp_solver/lp_solver_gurobi.hxx; sourceTree = SOURCE_ROOT; };
+		7B3B7E8D4E81D65857D8471E /* README.txt */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = README.txt; path = "../../../addons/ofxopengm/src/opengm/inference/fix-fusion/README.txt"; sourceTree = SOURCE_ROOT; };
+		7D47240405AB63076C6D9839 /* blackboxteststar.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = blackboxteststar.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/blackboxtests/blackboxteststar.hxx; sourceTree = SOURCE_ROOT; };
+		7DE4806DAC87EAF690A1B650 /* function_properties.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = function_properties.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/function_properties.hxx; sourceTree = SOURCE_ROOT; };
+		7FE2257C95E6641A6C252E1B /* and.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = and.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/and.hxx; sourceTree = SOURCE_ROOT; };
+		81FBC375443BDBD628C1EA36 /* view_convert_function.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = view_convert_function.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/view_convert_function.hxx; sourceTree = SOURCE_ROOT; };
+		83DA4FD84ABD4342B6B67DC4 /* random.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = random.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/random.hxx; sourceTree = SOURCE_ROOT; };
+		8413CD11FADA105FA9F22578 /* loc.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = loc.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/loc.hxx; sourceTree = SOURCE_ROOT; };
+		8481AF5DFDDB2750C0C44E6D /* minstcutibfs.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = minstcutibfs.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/minstcutibfs.hxx; sourceTree = SOURCE_ROOT; };
+		851F5D288CB3F678DA3CA357 /* integrator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = integrator.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/integrator.hxx; sourceTree = SOURCE_ROOT; };
+		85C99FFD621DF6CDC905795F /* dynamicprogramming.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = dynamicprogramming.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/dynamicprogramming.hxx; sourceTree = SOURCE_ROOT; };
+		862797A2EAE6907EFFA8A4A4 /* transportationsolver.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = transportationsolver.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/transportationsolver.hxx; sourceTree = SOURCE_ROOT; };
+		896A641EA561F1F56B1639A8 /* test_empty.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = test_empty.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/inferencetests/test_empty.hxx; sourceTree = SOURCE_ROOT; };
+		8993119AFCAA866D7FD971BE /* fractional_bp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = fractional_bp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/fractional_bp.hxx; sourceTree = SOURCE_ROOT; };
+		89F4D5841D1B98FB983CF35F /* messagepassing_operations_withFunctors.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = messagepassing_operations_withFunctors.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/messagepassing/messagepassing_operations_withFunctors.hxx; sourceTree = SOURCE_ROOT; };
+		89FF081BA8F0934CFD443FB5 /* primal_lpbound.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = primal_lpbound.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/primal_lpbound.hxx; sourceTree = SOURCE_ROOT; };
+		8D411379A26933F91D8DC69F /* inferencetester.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = inferencetester.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/inferencetester.hxx; sourceTree = SOURCE_ROOT; };
+		8ECBEC66DACF0EBD75A753FC /* infandflip.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = infandflip.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/infandflip.hxx; sourceTree = SOURCE_ROOT; };
+		8FDF3B372C4BD671F0F09E22 /* messagepassing_bp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = messagepassing_bp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/messagepassing/messagepassing_bp.hxx; sourceTree = SOURCE_ROOT; };
+		913A080881B2A3FF3BB96FBA /* dddualvariableblock.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = dddualvariableblock.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/dualdecomposition/dddualvariableblock.hxx; sourceTree = SOURCE_ROOT; };
+		91A20150BBBA08DA6C36DC2C /* messagepassing_operations.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = messagepassing_operations.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/messagepassing/messagepassing_operations.hxx; sourceTree = SOURCE_ROOT; };
+		9261AA0E55065032F357200E /* normalize.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = normalize.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/normalize.hxx; sourceTree = SOURCE_ROOT; };
+		92750400AAAB275307080890 /* test_blackbox.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = test_blackbox.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/inferencetests/test_blackbox.hxx; sourceTree = SOURCE_ROOT; };
+		9308BDE9E218E6CDA14A3C22 /* inference.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = inference.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/inference.hxx; sourceTree = SOURCE_ROOT; };
+		93AFAB1F7E2D0BA4F1C6DF8C /* grante.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = grante.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/grante.hxx; sourceTree = SOURCE_ROOT; };
+		93B7F109617828F9B8A9457A /* marray.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = marray.hxx; path = ../../../addons/ofxopengm/src/opengm/datastructures/marray/marray.hxx; sourceTree = SOURCE_ROOT; };
+		962FFAE1F604DDAF38DCF719 /* self_fusion.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = self_fusion.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/self_fusion.hxx; sourceTree = SOURCE_ROOT; };
+		96656CECF0E7B29911305E73 /* ad3.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = ad3.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/ad3.hxx; sourceTree = SOURCE_ROOT; };
+		980BC85D133AA69E28F36165 /* double_loop_generalized_bp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = double_loop_generalized_bp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/double_loop_generalized_bp.hxx; sourceTree = SOURCE_ROOT; };
+		984DA1C1AB297297587C99D5 /* fast_sequence.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = fast_sequence.hxx; path = ../../../addons/ofxopengm/src/opengm/datastructures/fast_sequence.hxx; sourceTree = SOURCE_ROOT; };
+		98A645D676AE0EE1F2FB02B9 /* smooth_nesterov.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = smooth_nesterov.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/smooth_nesterov.hxx; sourceTree = SOURCE_ROOT; };
+		9A52347DDA913C11E771EC79 /* tribool.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = tribool.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/tribool.hxx; sourceTree = SOURCE_ROOT; };
+		9A5CBD8CEF628C67A0AE81A9 /* potts.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = potts.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/potts.hxx; sourceTree = SOURCE_ROOT; };
+		9A668C851C3913B8625EF071 /* test_inference_blackboxtest.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = test_inference_blackboxtest.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/test_inference_blackboxtest.hxx; sourceTree = SOURCE_ROOT; };
+		9AF3B9633C2F1182756D5B19 /* graphicalmodel_explicit_storage.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodel_explicit_storage.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphicalmodel_explicit_storage.hxx; sourceTree = SOURCE_ROOT; };
+		9F3A0A1530F6E65DEBE761D6 /* sparsemarray.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = sparsemarray.hxx; path = ../../../addons/ofxopengm/src/opengm/datastructures/sparsemarray/sparsemarray.hxx; sourceTree = SOURCE_ROOT; };
+		A11C4F9AFACBD03F5CCAAABC /* accessor_iterator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = accessor_iterator.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/accessor_iterator.hxx; sourceTree = SOURCE_ROOT; };
+		A13A1FA900143C6C67A340A8 /* view_fix_variables_function.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = view_fix_variables_function.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/view_fix_variables_function.hxx; sourceTree = SOURCE_ROOT; };
+		A19179442E7FCC8C0EE4EA5B /* graphicalmodel_hdf5.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodel_hdf5.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphicalmodel_hdf5.hxx; sourceTree = SOURCE_ROOT; };
+		A465645B85B10EEAD649EAA0 /* submodel_builder.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = submodel_builder.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/submodel/submodel_builder.hxx; sourceTree = SOURCE_ROOT; };
+		A528AA2EF00413D63A8A7BB4 /* graphicalmodel_manipulator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodel_manipulator.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphicalmodel_manipulator.hxx; sourceTree = SOURCE_ROOT; };
+		A76DF68791C753E76D6C9C65 /* dec_map.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = dec_map.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/dec_map.hxx; sourceTree = SOURCE_ROOT; };
+		A7FF93021FC51B6D13394CF2 /* alphabetaswap.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphabetaswap.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/alphabetaswap.hxx; sourceTree = SOURCE_ROOT; };
+		A8AB1A1B00D651B1DF394DCA /* daoopt.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = daoopt.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/daoopt.hxx; sourceTree = SOURCE_ROOT; };
+		A952944CC7A7F1CBEC7AF36A /* maximizer.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = maximizer.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/maximizer.hxx; sourceTree = SOURCE_ROOT; };
+		AE32ACA092EE4528A8208DF5 /* trws_adsal.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = trws_adsal.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/trws_adsal.hxx; sourceTree = SOURCE_ROOT; };
+		AE49CFE155826385938EF767 /* multiplier.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = multiplier.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/multiplier.hxx; sourceTree = SOURCE_ROOT; };
+		AECC78F7B117CA1D5DD9EF7A /* minstcutkolmogorov.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = minstcutkolmogorov.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/minstcutkolmogorov.hxx; sourceTree = SOURCE_ROOT; };
+		AF0E93C4C2EB2E1D249A8E71 /* constant.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = constant.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/constant.hxx; sourceTree = SOURCE_ROOT; };
+		AFAE9D2B87CA9F209CF2AC7B /* function_registration.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = function_registration.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/function_registration.hxx; sourceTree = SOURCE_ROOT; };
+		B0E6F2C0E3B2A522D0DED106 /* clique.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = clique.hpp; path = "../../../addons/ofxopengm/src/opengm/inference/fix-fusion/clique.hpp"; sourceTree = SOURCE_ROOT; };
+		B264BD880CA522C0CA576B5F /* swendsenwang.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = swendsenwang.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/swendsenwang.hxx; sourceTree = SOURCE_ROOT; };
+		B2A4877C864ED7C205B89196 /* vector_view_space.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = vector_view_space.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/space/vector_view_space.hxx; sourceTree = SOURCE_ROOT; };
+		B408D4E177BA0F15BD7A024D /* explicit_function.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = explicit_function.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/explicit_function.hxx; sourceTree = SOURCE_ROOT; };
+		B509A9C1FCA5D831AD516F74 /* truncated_absolute_difference.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = truncated_absolute_difference.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/truncated_absolute_difference.hxx; sourceTree = SOURCE_ROOT; };
+		B58FA67E1CFF1D44B17D242E /* combilp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = combilp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/combilp.hxx; sourceTree = SOURCE_ROOT; };
+		B5CC6E57BB8C6AEEEC70905A /* hqpbo.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = hqpbo.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/hqpbo.hxx; sourceTree = SOURCE_ROOT; };
+		B7CB28169F0410A0CC60379B /* exact.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = exact.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/exact.hxx; sourceTree = SOURCE_ROOT; };
+		B954B3A87EB755BE21DF4E3E /* utilities2.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = utilities2.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/utilities2.hxx; sourceTree = SOURCE_ROOT; };
+		B9F68C8B8B290888C55A464D /* test.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = test.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/test.hxx; sourceTree = SOURCE_ROOT; };
+		BA0502CC04F8F3A5C2785A2B /* function_properties_base.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = function_properties_base.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/function_properties_base.hxx; sourceTree = SOURCE_ROOT; };
+		BB8F3C7FA746322CC60224AA /* absolute_difference.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = absolute_difference.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/absolute_difference.hxx; sourceTree = SOURCE_ROOT; };
+		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+		BCD8001A371D64362F71F429 /* numpyview.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = numpyview.hxx; path = ../../../addons/ofxopengm/src/opengm/python/numpyview.hxx; sourceTree = SOURCE_ROOT; };
+		BEEA72516C6419181D9B1FA5 /* tree_expectation_propagation.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = tree_expectation_propagation.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/tree_expectation_propagation.hxx; sourceTree = SOURCE_ROOT; };
+		C012E7479A6B829C6156D4D0 /* quadratic-rep.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "quadratic-rep.hpp"; path = "../../../addons/ofxopengm/src/opengm/inference/fix-fusion/quadratic-rep.hpp"; sourceTree = SOURCE_ROOT; };
+		C10115B328557998A6BF2C41 /* trws_base.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = trws_base.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/trws_base.hxx; sourceTree = SOURCE_ROOT; };
+		C144BE7F9BBAEE17BC16C72A /* qpbo.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = qpbo.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/qpbo.hxx; sourceTree = SOURCE_ROOT; };
+		C22C0193307295E3C234E6A0 /* buffer_randomaccessset.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = buffer_randomaccessset.hxx; path = ../../../addons/ofxopengm/src/opengm/datastructures/buffer_randomaccessset.hxx; sourceTree = SOURCE_ROOT; };
+		C31E85AD679854432351DF14 /* higher-order.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "higher-order.hpp"; path = "../../../addons/ofxopengm/src/opengm/inference/fix-fusion/higher-order.hpp"; sourceTree = SOURCE_ROOT; };
+		C47CF444BBC1D88532012531 /* junction_tree.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = junction_tree.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/junction_tree.hxx; sourceTree = SOURCE_ROOT; };
+		C73219CF76E47152948643E9 /* grid_space.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = grid_space.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/space/grid_space.hxx; sourceTree = SOURCE_ROOT; };
+		C83DDD16F43A7FDAC7EA083B /* buffer_vector.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = buffer_vector.hxx; path = ../../../addons/ofxopengm/src/opengm/datastructures/buffer_vector.hxx; sourceTree = SOURCE_ROOT; };
+		C8BAB0939DB2D0E5A4E7A7C8 /* parameters.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = parameters.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/parameters.hxx; sourceTree = SOURCE_ROOT; };
+		CA0739CEECBF4D2ABED4DA98 /* syntheticmodelgenerator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = syntheticmodelgenerator.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/modelgenerators/syntheticmodelgenerator.hxx; sourceTree = SOURCE_ROOT; };
+		CB56EDD9221D6C7E45C10203 /* sat.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = sat.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/sat.hxx; sourceTree = SOURCE_ROOT; };
+		D0EF4DFA4EDBF9857D013B4C /* dualdecomposition_base.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = dualdecomposition_base.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/dualdecomposition/dualdecomposition_base.hxx; sourceTree = SOURCE_ROOT; };
+		D2DC5732B505EED53568FDDD /* accumulation.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = accumulation.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/accumulation.hxx; sourceTree = SOURCE_ROOT; };
+		D2F70A52E14FE08B87BEF3B6 /* readme.txt */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = readme.txt; path = ../../../addons/ofxopengm/src/opengm/functions/readme.txt; sourceTree = SOURCE_ROOT; };
+		D30879188E58079ED69AE15B /* blackboxtester.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = blackboxtester.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/blackboxtester.hxx; sourceTree = SOURCE_ROOT; };
+		D311F2FC202DE8B47CC1DEE4 /* functors.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = functors.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/functors.hxx; sourceTree = SOURCE_ROOT; };
+		D59F44806D3018FEFB1E6F28 /* lazyflipper.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lazyflipper.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/lazyflipper.hxx; sourceTree = SOURCE_ROOT; };
+		D5E9ACE1CB1061E59EAF86DC /* accumulator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = accumulator.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/operations/accumulator.hxx; sourceTree = SOURCE_ROOT; };
+		D62BC4C0FF95E583193CB238 /* factorgraph.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = factorgraph.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphviews/factorgraph.hxx; sourceTree = SOURCE_ROOT; };
+		D6D618A433DA583177D91E5F /* messagepassing.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = messagepassing.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/messagepassing/messagepassing.hxx; sourceTree = SOURCE_ROOT; };
+		D6E5C344BEB85CDA27099ECA /* gibbs.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = gibbs.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/gibbs.hxx; sourceTree = SOURCE_ROOT; };
+		D92314448EF6E0461304A50C /* graphcut.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphcut.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/graphcut.hxx; sourceTree = SOURCE_ROOT; };
+		DB472DA2AC8149D29EAAB348 /* operator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = operator.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/operations/operator.hxx; sourceTree = SOURCE_ROOT; };
+		DB80B8529425C3644B31A7D6 /* tree_reweighted_bp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = tree_reweighted_bp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/tree_reweighted_bp.hxx; sourceTree = SOURCE_ROOT; };
+		DC213E0AFAA8FFE273EDE3C0 /* lsatr.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lsatr.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/lsatr.hxx; sourceTree = SOURCE_ROOT; };
+		DC956CF9CD1EE8E2E92D7C1F /* partition-move.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = "partition-move.hxx"; path = "../../../addons/ofxopengm/src/opengm/inference/partition-move.hxx"; sourceTree = SOURCE_ROOT; };
+		DD26FDD374CD1513748BE1F7 /* syntheticmodelgenerator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = syntheticmodelgenerator.hxx; path = ../../../addons/ofxopengm/src/opengm/models/syntheticmodelgenerator.hxx; sourceTree = SOURCE_ROOT; };
+		DFBAB45FCC44C56C2E3D41F7 /* trws_trws.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = trws_trws.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/trws/trws_trws.hxx; sourceTree = SOURCE_ROOT; };
+		E23649D10440372250FE7285 /* timer.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = timer.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/timer.hxx; sourceTree = SOURCE_ROOT; };
+		E333CBB49999C51CC11874EB /* loop_corrected_bp.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = loop_corrected_bp.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/libdai/loop_corrected_bp.hxx; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		E45BE9770E8CC7DD009D7055 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		E45BE9790E8CC7DD009D7055 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		E485C5FD2F6BB0D4DE4947F3 /* marray_hdf5.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = marray_hdf5.hxx; path = ../../../addons/ofxopengm/src/opengm/datastructures/marray/marray_hdf5.hxx; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* RBMDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBMDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4C2424410CC5A17004149E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		E4C2424510CC5A17004149E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E55F3D27F5746FC55C23DB64 /* shape_accessor.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = shape_accessor.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/shape_accessor.hxx; sourceTree = SOURCE_ROOT; };
+		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		E7E077E715D3B6510020DFD4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		E7E5E1C0D2BC3FE21A6F44FC /* converter.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = converter.hxx; path = ../../../addons/ofxopengm/src/opengm/python/converter.hxx; sourceTree = SOURCE_ROOT; };
+		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		E894BD70760714DF8ABAB33D /* test_hdf5_file.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = test_hdf5_file.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/inferencetests/test_hdf5_file.hxx; sourceTree = SOURCE_ROOT; };
+		E8F6773182A7EF3B42432C44 /* test_base.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = test_base.hxx; path = ../../../addons/ofxopengm/src/opengm/unittests/inferencetests/test_base.hxx; sourceTree = SOURCE_ROOT; };
+		E9878FAEE9CABECCD321EBD8 /* smoothing_to_marginals.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = smoothing_to_marginals.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/smoothing_to_marginals.hxx; sourceTree = SOURCE_ROOT; };
+		EA7C9271CC4BD4D733FD70B5 /* sorting.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = sorting.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/sorting.hxx; sourceTree = SOURCE_ROOT; };
+		EC00DDE4CEB9F81BB9B802DA /* indexing.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = indexing.hxx; path = ../../../addons/ofxopengm/src/opengm/utilities/indexing.hxx; sourceTree = SOURCE_ROOT; };
+		EC80F7DA2CE41622B36088F9 /* graphicalmodel_function_wrapper.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodel_function_wrapper.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphicalmodel_function_wrapper.hxx; sourceTree = SOURCE_ROOT; };
+		ECC0AC5AE166A13758CF5D24 /* disjoint-set.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = "disjoint-set.hxx"; path = "../../../addons/ofxopengm/src/opengm/utilities/disjoint-set.hxx"; sourceTree = SOURCE_ROOT; };
+		ED0E58C57EF36C0E2B0FC933 /* l_potts.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = l_potts.hxx; path = ../../../addons/ofxopengm/src/opengm/functions/l_potts.hxx; sourceTree = SOURCE_ROOT; };
+		ED740CBD4FDF1856651CFCD5 /* minimizer.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = minimizer.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/minimizer.hxx; sourceTree = SOURCE_ROOT; };
+		EE161681632EE9A72A3DAF64 /* trws.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = trws.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/trws.hxx; sourceTree = SOURCE_ROOT; };
+		F037A7876FD9486A438BD4A6 /* alphaexpansion.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaexpansion.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/alphaexpansion.hxx; sourceTree = SOURCE_ROOT; };
+		F1EE9618E52FD7F0AEDA4952 /* graphicalmodel_factor_accumulator.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = graphicalmodel_factor_accumulator.hxx; path = ../../../addons/ofxopengm/src/opengm/graphicalmodel/graphicalmodel_factor_accumulator.hxx; sourceTree = SOURCE_ROOT; };
+		F42A75CD5F7A28C9087F1DFF /* adder.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = adder.hxx; path = ../../../addons/ofxopengm/src/opengm/operations/adder.hxx; sourceTree = SOURCE_ROOT; };
+		F4BDF481D11B5F855272C6B5 /* gco.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = gco.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/external/gco.hxx; sourceTree = SOURCE_ROOT; };
+		FCDEFA5B096226F90924259D /* lp_reparametrization.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = lp_reparametrization.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/lp_reparametrization.hxx; sourceTree = SOURCE_ROOT; };
+		FEBF1AC89A2497117763DA05 /* higher-order-energy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "higher-order-energy.hpp"; path = "../../../addons/ofxopengm/src/opengm/inference/fix-fusion/higher-order-energy.hpp"; sourceTree = SOURCE_ROOT; };
+		FEC77CB030BE4BF40B032FA1 /* fusion_mover.hxx */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = fusion_mover.hxx; path = ../../../addons/ofxopengm/src/opengm/inference/auxiliary/fusion_move/fusion_mover.hxx; sourceTree = SOURCE_ROOT; };
+		FF0AE62258114E253D7C1C39 /* config.hxx.cmake */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = config.hxx.cmake; path = ../../../addons/ofxopengm/src/opengm/config.hxx.cmake; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
+				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
+				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
+				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
+				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
+				E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */,
+				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
+				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
+				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
+				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
+				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
+				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
+				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
+				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034AEDC6874BF0370FBA8F7B /* sparsemarray */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A0A1530F6E65DEBE761D6 /* sparsemarray.hxx */,
+			);
+			name = sparsemarray;
+			sourceTree = "<group>";
+		};
+		0E72B705972895330D5CD33F /* functions */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F3C7FA746322CC60224AA /* absolute_difference.hxx */,
+				AF0E93C4C2EB2E1D249A8E71 /* constant.hxx */,
+				B408D4E177BA0F15BD7A024D /* explicit_function.hxx */,
+				2A0DCD92D09B8DDA2B31CF0F /* fieldofexperts.hxx */,
+				7DE4806DAC87EAF690A1B650 /* function_properties.hxx */,
+				BA0502CC04F8F3A5C2785A2B /* function_properties_base.hxx */,
+				AFAE9D2B87CA9F209CF2AC7B /* function_registration.hxx */,
+				ED0E58C57EF36C0E2B0FC933 /* l_potts.hxx */,
+				72491618C1EDE9A415A4A694 /* modelviewfunction.hxx */,
+				7C5B3B709BA4DEFC9B4BE6A5 /* operations */,
+				9A5CBD8CEF628C67A0AE81A9 /* potts.hxx */,
+				70E0F64C1A294A5F0808F8AD /* pottsg.hxx */,
+				1508645DFA4AC0B7F5EE30E1 /* pottsn.hxx */,
+				D2F70A52E14FE08B87BEF3B6 /* readme.txt */,
+				3521A269DF3C4A60BD10B5CC /* scaled_view.hxx */,
+				698BD428B1F83F938B037B84 /* singlesitefunction.hxx */,
+				15282F5B022AA764ECD1EF72 /* sparsemarray.hxx */,
+				773E070C6D93F24B31129898 /* squared_difference.hxx */,
+				B509A9C1FCA5D831AD516F74 /* truncated_absolute_difference.hxx */,
+				749D7C01E002BCA8D3A207FB /* truncated_squared_difference.hxx */,
+				7870C704836DDA505C53C04F /* view.hxx */,
+				81FBC375443BDBD628C1EA36 /* view_convert_function.hxx */,
+				A13A1FA900143C6C67A340A8 /* view_fix_variables_function.hxx */,
+			);
+			name = functions;
+			sourceTree = "<group>";
+		};
+		0FF55C7B7CFEF313CF57A7A0 /* dualdecomposition */ = {
+			isa = PBXGroup;
+			children = (
+				913A080881B2A3FF3BB96FBA /* dddualvariableblock.hxx */,
+				D0EF4DFA4EDBF9857D013B4C /* dualdecomposition_base.hxx */,
+				37E913DC3054D8EA28CF8826 /* dualdecomposition_bundle.hxx */,
+				4FFF83B4FA99F198EF50ED85 /* dualdecomposition_subgradient.hxx */,
+			);
+			name = dualdecomposition;
+			sourceTree = "<group>";
+		};
+		16F1E082942320B25DDDDD62 /* trws */ = {
+			isa = PBXGroup;
+			children = (
+				2C30BF366C30449FEF774647 /* output_debug_utils.hxx */,
+				98A645D676AE0EE1F2FB02B9 /* smooth_nesterov.hxx */,
+				3E715E23F77A852E51D1B420 /* smoothing_strategy.hxx */,
+				AE32ACA092EE4528A8208DF5 /* trws_adsal.hxx */,
+				C10115B328557998A6BF2C41 /* trws_base.hxx */,
+				2EDFBD3F522DEC5E3037B56F /* trws_decomposition.hxx */,
+				4617C5CDD50FFFB3D8AD74A8 /* trws_reparametrization.hxx */,
+				0C441A721C0732FFB2CBE0D4 /* trws_subproblemsolver.hxx */,
+				DFBAB45FCC44C56C2E3D41F7 /* trws_trws.hxx */,
+				B954B3A87EB755BE21DF4E3E /* utilities2.hxx */,
+			);
+			name = trws;
+			sourceTree = "<group>";
+		};
+		18DAA459EE2B4D9D4049C4DF /* inferencetests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6773182A7EF3B42432C44 /* test_base.hxx */,
+				92750400AAAB275307080890 /* test_blackbox.hxx */,
+				896A641EA561F1F56B1639A8 /* test_empty.hxx */,
+				60A3B0CCCABD2F674C8F6AD1 /* test_functions.hxx */,
+				E894BD70760714DF8ABAB33D /* test_hdf5_file.hxx */,
+				3591E68A340223A63BF36B19 /* test_multimode.hxx */,
+			);
+			name = inferencetests;
+			sourceTree = "<group>";
+		};
+		1966FD78C5B6DFFEC1A56DCD /* submodel */ = {
+			isa = PBXGroup;
+			children = (
+				A465645B85B10EEAD649EAA0 /* submodel_builder.hxx */,
+			);
+			name = submodel;
+			sourceTree = "<group>";
+		};
+		243C1DAE63F2CB91861DE156 /* ofxopengm */ = {
+			isa = PBXGroup;
+			children = (
+				E76048D128A3578A03FCB81C /* src */,
+			);
+			name = ofxopengm;
+			sourceTree = "<group>";
+		};
+		27FF0DF645AC1702DCE94BCA /* inference */ = {
+			isa = PBXGroup;
+			children = (
+				A7FF93021FC51B6D13394CF2 /* alphabetaswap.hxx */,
+				F037A7876FD9486A438BD4A6 /* alphaexpansion.hxx */,
+				5C68F9DB8729EBFD438B0CA3 /* alphaexpansionfusion.hxx */,
+				5A295E448F7052ED2AB52651 /* astar.hxx */,
+				F0CC0F9C770393BD22C4BE30 /* auxiliary */,
+				1EDF5A14BBBC24DABC2DBE79 /* bruteforce.hxx */,
+				B58FA67E1CFF1D44B17D242E /* combilp.hxx */,
+				0FF55C7B7CFEF313CF57A7A0 /* dualdecomposition */,
+				85C99FFD621DF6CDC905795F /* dynamicprogramming.hxx */,
+				769B212750360118D72D0DEA /* external */,
+				EF4F9DF86AAB1DCF4FD5DC85 /* fix-fusion */,
+				393E953F858032D4098D1660 /* fusion_based_inf.hxx */,
+				430590729A2F7EBFAEB56660 /* gibbs.hxx */,
+				D92314448EF6E0461304A50C /* graphcut.hxx */,
+				0B4FA342014F0E7F819CFCD6 /* greedygremlin.hxx */,
+				B5CC6E57BB8C6AEEEC70905A /* hqpbo.hxx */,
+				0E5FB865D47F2D0F93C22C97 /* icm.hxx */,
+				8ECBEC66DACF0EBD75A753FC /* infandflip.hxx */,
+				0480839F623C4D251ADB2C1C /* inference.hxx */,
+				D59F44806D3018FEFB1E6F28 /* lazyflipper.hxx */,
+				8413CD11FADA105FA9F22578 /* loc.hxx */,
+				236C27195CE6ABBEC2BE49B1 /* lpcplex.hxx */,
+				002841DD7EAE2335E8DE1111 /* lpgurobi.hxx */,
+				DC213E0AFAA8FFE273EDE3C0 /* lsatr.hxx */,
+				B027B895B0E94193528BFBAE /* messagepassing */,
+				3E4A604804605E62ADA9D754 /* movemaker.hxx */,
+				2382219A66528D32D61C83D5 /* mqpbo.hxx */,
+				2D06F0069392034C0D65F41E /* multicut.hxx */,
+				DC956CF9CD1EE8E2E92D7C1F /* partition-move.hxx */,
+				3D0AD69E9A5DEA12914F3051 /* qpbo.hxx */,
+				4784A9C0A5B0461E07E19B69 /* reducedinference.hxx */,
+				CB56EDD9221D6C7E45C10203 /* sat.hxx */,
+				962FFAE1F604DDAF38DCF719 /* self_fusion.hxx */,
+				B264BD880CA522C0CA576B5F /* swendsenwang.hxx */,
+				16F1E082942320B25DDDDD62 /* trws */,
+				522C1E0C259258DF23E3279D /* visitors */,
+			);
+			name = inference;
+			sourceTree = "<group>";
+		};
+		35F5D3AF62CE502501889B6A /* blackboxtests */ = {
+			isa = PBXGroup;
+			children = (
+				6DA223E9A990394CD3861A20 /* blackboxtestbase.hxx */,
+				42A205E2F8C09E0F15148A7F /* blackboxtestfull.hxx */,
+				26A396BF9FC31EBE0AE71905 /* blackboxtestgrid.hxx */,
+				7D47240405AB63076C6D9839 /* blackboxteststar.hxx */,
+			);
+			name = blackboxtests;
+			sourceTree = "<group>";
+		};
+		36D6C2C3A543513832772D72 /* python */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5E1C0D2BC3FE21A6F44FC /* converter.hxx */,
+				BCD8001A371D64362F71F429 /* numpyview.hxx */,
+				5AB9D84FC7FED52D7905F4F8 /* opengmpython.hxx */,
+				406DBE6A076737BCCAD52774 /* pythonfunction.hxx */,
+			);
+			name = python;
+			sourceTree = "<group>";
+		};
+		38618C9B5133717CDDA2DBCA /* libdai */ = {
+			isa = PBXGroup;
+			children = (
+				76FD20C0DA0FC902DD8DAB17 /* bp.hxx */,
+				A76DF68791C753E76D6C9C65 /* dec_map.hxx */,
+				980BC85D133AA69E28F36165 /* double_loop_generalized_bp.hxx */,
+				B7CB28169F0410A0CC60379B /* exact.hxx */,
+				8993119AFCAA866D7FD971BE /* fractional_bp.hxx */,
+				D6E5C344BEB85CDA27099ECA /* gibbs.hxx */,
+				9308BDE9E218E6CDA14A3C22 /* inference.hxx */,
+				C47CF444BBC1D88532012531 /* junction_tree.hxx */,
+				E333CBB49999C51CC11874EB /* loop_corrected_bp.hxx */,
+				0AE2C82B58D51F9E25F2A76B /* mean_field.hxx */,
+				BEEA72516C6419181D9B1FA5 /* tree_expectation_propagation.hxx */,
+				DB80B8529425C3644B31A7D6 /* tree_reweighted_bp.hxx */,
+			);
+			name = libdai;
+			sourceTree = "<group>";
+		};
+		522C1E0C259258DF23E3279D /* visitors */ = {
+			isa = PBXGroup;
+			children = (
+				082F7DFCFFEC315CE4B0D31E /* visitors.hxx */,
+			);
+			name = visitors;
+			sourceTree = "<group>";
+		};
+		602856883A6384E2E77E0D02 /* datastructures */ = {
+			isa = PBXGroup;
+			children = (
+				C22C0193307295E3C234E6A0 /* buffer_randomaccessset.hxx */,
+				C83DDD16F43A7FDAC7EA083B /* buffer_vector.hxx */,
+				984DA1C1AB297297587C99D5 /* fast_sequence.hxx */,
+				82FE16640C5F84C05C977D59 /* marray */,
+				13AEB5087901183DA8A2FD98 /* partition.hxx */,
+				2AA3314BACD7B6805408C902 /* randomaccessset.hxx */,
+				034AEDC6874BF0370FBA8F7B /* sparsemarray */,
+			);
+			name = datastructures;
+			sourceTree = "<group>";
+		};
+		769B212750360118D72D0DEA /* external */ = {
+			isa = PBXGroup;
+			children = (
+				96656CECF0E7B29911305E73 /* ad3.hxx */,
+				A8AB1A1B00D651B1DF394DCA /* daoopt.hxx */,
+				54C15A581474CEF3CF3E3AA4 /* fastPD.hxx */,
+				F4BDF481D11B5F855272C6B5 /* gco.hxx */,
+				93AFAB1F7E2D0BA4F1C6DF8C /* grante.hxx */,
+				38618C9B5133717CDDA2DBCA /* libdai */,
+				4E3F92017461B396894DF92D /* mplp.hxx */,
+				10F54AB914ABB3432CA62C54 /* mrflib.hxx */,
+				C144BE7F9BBAEE17BC16C72A /* qpbo.hxx */,
+				EE161681632EE9A72A3DAF64 /* trws.hxx */,
+				016D18E0F925BBFED0D9C273 /* typeView.h */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		7C5B3B709BA4DEFC9B4BE6A5 /* operations */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9ACE1CB1061E59EAF86DC /* accumulator.hxx */,
+				DB472DA2AC8149D29EAAB348 /* operator.hxx */,
+			);
+			name = operations;
+			sourceTree = "<group>";
+		};
+		824E7CBBE3FB0A2D772D7DD3 /* graphviews */ = {
+			isa = PBXGroup;
+			children = (
+				D62BC4C0FF95E583193CB238 /* factorgraph.hxx */,
+			);
+			name = graphviews;
+			sourceTree = "<group>";
+		};
+		82FE16640C5F84C05C977D59 /* marray */ = {
+			isa = PBXGroup;
+			children = (
+				93B7F109617828F9B8A9457A /* marray.hxx */,
+				E485C5FD2F6BB0D4DE4947F3 /* marray_hdf5.hxx */,
+			);
+			name = marray;
+			sourceTree = "<group>";
+		};
+		8E525D164995A57416564345 /* space */ = {
+			isa = PBXGroup;
+			children = (
+				743B009BF47EA329984D09BE /* discretespace.hxx */,
+				C73219CF76E47152948643E9 /* grid_space.hxx */,
+				11349D20D5E59D27DB843507 /* simplediscretespace.hxx */,
+				4F6C5C82BF834224CDA7E440 /* space_base.hxx */,
+				6F78B7EAA250F317BB9497BB /* static_simplediscretespace.hxx */,
+				B2A4877C864ED7C205B89196 /* vector_view_space.hxx */,
+				427E783590D4C7098C3A1624 /* viewspace.hxx */,
+			);
+			name = space;
+			sourceTree = "<group>";
+		};
+		A0484C895159300AF2B9C7F7 /* opengm */ = {
+			isa = PBXGroup;
+			children = (
+				278CAFD89B58771555C87836 /* config.hxx */,
+				FF0AE62258114E253D7C1C39 /* config.hxx.cmake */,
+				602856883A6384E2E77E0D02 /* datastructures */,
+				CD1D469292093C97DFBC7D3A /* doxygen */,
+				0E72B705972895330D5CD33F /* functions */,
+				EEC915BA42E5E2F339CB232B /* graphicalmodel */,
+				27FF0DF645AC1702DCE94BCA /* inference */,
+				AC1AF4F4D2D1A2666B84F995 /* models */,
+				5162341600BD141C1A35C206 /* opengm.hxx */,
+				C78D1BC0F00FA5E334A58A6F /* operations */,
+				36D6C2C3A543513832772D72 /* python */,
+				E4326AEC7D3556F2C53F6B63 /* unittests */,
+				B66DFBF50B3411751EE2C622 /* utilities */,
+			);
+			name = opengm;
+			sourceTree = "<group>";
+		};
+		AC1AF4F4D2D1A2666B84F995 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DD26FDD374CD1513748BE1F7 /* syntheticmodelgenerator.hxx */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		B027B895B0E94193528BFBAE /* messagepassing */ = {
+			isa = PBXGroup;
+			children = (
+				D6D618A433DA583177D91E5F /* messagepassing.hxx */,
+				8FDF3B372C4BD671F0F09E22 /* messagepassing_bp.hxx */,
+				6B8436DA1C8171F0C879B7DE /* messagepassing_buffer.hxx */,
+				91A20150BBBA08DA6C36DC2C /* messagepassing_operations.hxx */,
+				89F4D5841D1B98FB983CF35F /* messagepassing_operations_withFunctors.hxx */,
+				41728B30D2F5AE17F916390C /* messagepassing_trbp.hxx */,
+			);
+			name = messagepassing;
+			sourceTree = "<group>";
+		};
+		B66DFBF50B3411751EE2C622 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A11C4F9AFACBD03F5CCAAABC /* accessor_iterator.hxx */,
+				D2DC5732B505EED53568FDDD /* accumulation.hxx */,
+				ECC0AC5AE166A13758CF5D24 /* disjoint-set.hxx */,
+				D311F2FC202DE8B47CC1DEE4 /* functors.hxx */,
+				EC00DDE4CEB9F81BB9B802DA /* indexing.hxx */,
+				651896CB1C1CDEF5322D26FE /* macros.hxx */,
+				07C2724B1B96BC146649D2BB /* meminfo.hxx */,
+				671E5472F55638E00A78572C /* metaprogramming.hxx */,
+				23457F8E06898318B09DFD38 /* modelTrees.hxx */,
+				83DA4FD84ABD4342B6B67DC4 /* random.hxx */,
+				E55F3D27F5746FC55C23DB64 /* shape_accessor.hxx */,
+				EA7C9271CC4BD4D733FD70B5 /* sorting.hxx */,
+				E23649D10440372250FE7285 /* timer.hxx */,
+				9A52347DDA913C11E771EC79 /* tribool.hxx */,
+				34771211A763500FF82AA91C /* vector_view.hxx */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				243C1DAE63F2CB91861DE156 /* ofxopengm */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		BBAB23C913894ECA00AA2426 /* system frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F985F515E0DE99003869B5 /* Accelerate.framework */,
+				E4C2424410CC5A17004149E2 /* AppKit.framework */,
+				E4C2424510CC5A17004149E2 /* Cocoa.framework */,
+				E4C2424610CC5A17004149E2 /* IOKit.framework */,
+				E45BE9710E8CC7DD009D7055 /* AGL.framework */,
+				E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */,
+				E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */,
+				E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */,
+				E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */,
+				E45BE9770E8CC7DD009D7055 /* CoreServices.framework */,
+				E45BE9790E8CC7DD009D7055 /* OpenGL.framework */,
+				E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */,
+				E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */,
+				E7E077E715D3B6510020DFD4 /* QTKit.framework */,
+			);
+			name = "system frameworks";
+			sourceTree = "<group>";
+		};
+		BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB23BE13894E4700AA2426 /* GLUT.framework */,
+			);
+			name = "3rd party frameworks";
+			sourceTree = "<group>";
+		};
+		BCAF711BB201BF13016C3E4E /* decomposition */ = {
+			isa = PBXGroup;
+			children = (
+				4FA32219432FA7D3F9ACE67C /* graphicalmodeldecomposer.hxx */,
+				60EF69313046E31974F0319C /* graphicalmodeldecomposition.hxx */,
+			);
+			name = decomposition;
+			sourceTree = "<group>";
+		};
+		C78D1BC0F00FA5E334A58A6F /* operations */ = {
+			isa = PBXGroup;
+			children = (
+				F42A75CD5F7A28C9087F1DFF /* adder.hxx */,
+				7FE2257C95E6641A6C252E1B /* and.hxx */,
+				851F5D288CB3F678DA3CA357 /* integrator.hxx */,
+				A952944CC7A7F1CBEC7AF36A /* maximizer.hxx */,
+				ED740CBD4FDF1856651CFCD5 /* minimizer.hxx */,
+				AE49CFE155826385938EF767 /* multiplier.hxx */,
+				9261AA0E55065032F357200E /* normalize.hxx */,
+				2038C78C92428FED4ED8B15F /* or.hxx */,
+				27ADE32DE851A2519C0861C0 /* weightedoperations.hxx */,
+			);
+			name = operations;
+			sourceTree = "<group>";
+		};
+		CD1D469292093C97DFBC7D3A /* doxygen */ = {
+			isa = PBXGroup;
+			children = (
+				6C606CB140FC6285AA7E403C /* mainpage.hxx */,
+			);
+			name = doxygen;
+			sourceTree = "<group>";
+		};
+		DA12367D3F8CF78368CE064E /* fusion_move */ = {
+			isa = PBXGroup;
+			children = (
+				FEC77CB030BE4BF40B032FA1 /* fusion_mover.hxx */,
+			);
+			name = fusion_move;
+			sourceTree = "<group>";
+		};
+		E4326AEC7D3556F2C53F6B63 /* unittests */ = {
+			isa = PBXGroup;
+			children = (
+				D30879188E58079ED69AE15B /* blackboxtester.hxx */,
+				35F5D3AF62CE502501889B6A /* blackboxtests */,
+				8D411379A26933F91D8DC69F /* inferencetester.hxx */,
+				18DAA459EE2B4D9D4049C4DF /* inferencetests */,
+				B9F68C8B8B290888C55A464D /* test.hxx */,
+				9A668C851C3913B8625EF071 /* test_inference_blackboxtest.hxx */,
+			);
+			name = unittests;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45BE5980E8CC70C009D7055 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */,
+				BBAB23C913894ECA00AA2426 /* system frameworks */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				E45BE5980E8CC70C009D7055 /* frameworks */,
+				E4B69B5B0A3A1756003C02F2 /* RBMDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		E76048D128A3578A03FCB81C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A0484C895159300AF2B9C7F7 /* opengm */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		E9D4F3843AEEF732EE506FBC /* modelgenerators */ = {
+			isa = PBXGroup;
+			children = (
+				CA0739CEECBF4D2ABED4DA98 /* syntheticmodelgenerator.hxx */,
+			);
+			name = modelgenerators;
+			sourceTree = "<group>";
+		};
+		EEC915BA42E5E2F339CB232B /* graphicalmodel */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF711BB201BF13016C3E4E /* decomposition */,
+				2753F602E0A7A852E50D585E /* graphicalmodel.hxx */,
+				9AF3B9633C2F1182756D5B19 /* graphicalmodel_explicit_storage.hxx */,
+				103B38573641D4DBE5A69700 /* graphicalmodel_factor.hxx */,
+				F1EE9618E52FD7F0AEDA4952 /* graphicalmodel_factor_accumulator.hxx */,
+				0204D3DBE68F3828BC547E85 /* graphicalmodel_factor_operator.hxx */,
+				EC80F7DA2CE41622B36088F9 /* graphicalmodel_function_wrapper.hxx */,
+				A19179442E7FCC8C0EE4EA5B /* graphicalmodel_hdf5.hxx */,
+				A528AA2EF00413D63A8A7BB4 /* graphicalmodel_manipulator.hxx */,
+				824E7CBBE3FB0A2D772D7DD3 /* graphviews */,
+				E9D4F3843AEEF732EE506FBC /* modelgenerators */,
+				C8BAB0939DB2D0E5A4E7A7C8 /* parameters.hxx */,
+				8E525D164995A57416564345 /* space */,
+			);
+			name = graphicalmodel;
+			sourceTree = "<group>";
+		};
+		EF4F9DF86AAB1DCF4FD5DC85 /* fix-fusion */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6F2C0E3B2A522D0DED106 /* clique.hpp */,
+				6B92B2F7C06B66311C10D4F3 /* fusion-move.hpp */,
+				FEBF1AC89A2497117763DA05 /* higher-order-energy.hpp */,
+				C31E85AD679854432351DF14 /* higher-order.hpp */,
+				1FE20EEA2141F035D4B98180 /* LICENSE.txt */,
+				C012E7479A6B829C6156D4D0 /* quadratic-rep.hpp */,
+				7B3B7E8D4E81D65857D8471E /* README.txt */,
+			);
+			name = "fix-fusion";
+			sourceTree = "<group>";
+		};
+		F022AEBA219091196CD66206 /* lp_solver */ = {
+			isa = PBXGroup;
+			children = (
+				49AC7C9C6CB7E2E0E3928230 /* lp_solver_cplex.hxx */,
+				481887039A831DFB2CD1B35C /* lp_solver_glpk.hxx */,
+				79CD7973D4E4BD8700E10981 /* lp_solver_gurobi.hxx */,
+				2EE16D0D948DC00C7FA011D2 /* lp_solver_interface.hxx */,
+			);
+			name = lp_solver;
+			sourceTree = "<group>";
+		};
+		F0CC0F9C770393BD22C4BE30 /* auxiliary */ = {
+			isa = PBXGroup;
+			children = (
+				DA12367D3F8CF78368CE064E /* fusion_move */,
+				FCDEFA5B096226F90924259D /* lp_reparametrization.hxx */,
+				24AFCB168BF7020122F6C73B /* lp_reparametrization_hdf5.hxx */,
+				F022AEBA219091196CD66206 /* lp_solver */,
+				040C796DFCEECDAECEC6E2E0 /* lpdef.hxx */,
+				67B0D124C03F7B302CE962BA /* minstcutboost.hxx */,
+				8481AF5DFDDB2750C0C44E6D /* minstcutibfs.hxx */,
+				AECC78F7B117CA1D5DD9EF7A /* minstcutkolmogorov.hxx */,
+				89FF081BA8F0934CFD443FB5 /* primal_lpbound.hxx */,
+				E9878FAEE9CABECCD321EBD8 /* smoothing_to_marginals.hxx */,
+				1966FD78C5B6DFFEC1A56DCD /* submodel */,
+				862797A2EAE6907EFFA8A4A4 /* transportationsolver.hxx */,
+			);
+			name = auxiliary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* RBM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "RBM" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = RBM;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* RBMDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "RBM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* RBM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\ncp -f \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				377CDDE111B9D0DA4E3F916C /* config.hxx in Sources */,
+				63B8008C5E75A26F7CCF85E0 /* config.hxx.cmake in Sources */,
+				FDBCA0582A1300D9E3D84F91 /* buffer_randomaccessset.hxx in Sources */,
+				CBDE6EE962EF3CB670E6EEBA /* buffer_vector.hxx in Sources */,
+				A6173B7F76B3199F40C959C7 /* fast_sequence.hxx in Sources */,
+				B092AAD7C4EAA81FDFD0B201 /* marray.hxx in Sources */,
+				971C275BC27B31591EC0F195 /* marray_hdf5.hxx in Sources */,
+				E44E359C649DF358E9E738DF /* partition.hxx in Sources */,
+				570FBE5F47BA6EC2D95F680C /* randomaccessset.hxx in Sources */,
+				F91097471EAB99F79FF33E90 /* sparsemarray.hxx in Sources */,
+				1D4B5E3EF88900745B8C037F /* mainpage.hxx in Sources */,
+				C06B5DD64664ED0794F09368 /* absolute_difference.hxx in Sources */,
+				13107F34EA0ABD9A813617A2 /* constant.hxx in Sources */,
+				450FB80809B47A62A9535E48 /* explicit_function.hxx in Sources */,
+				40333320133FC6AD0FFCA0AC /* fieldofexperts.hxx in Sources */,
+				DAA61A7A68E9DDE2329A33CD /* function_properties.hxx in Sources */,
+				0428D0B8B72FBA28A862490E /* function_properties_base.hxx in Sources */,
+				0DB04943A67F9DBA14C2B558 /* function_registration.hxx in Sources */,
+				E65D2BA14BCDF8DFBFD94999 /* l_potts.hxx in Sources */,
+				48A65A9D1A07DF682972A620 /* modelviewfunction.hxx in Sources */,
+				EF08B52765A5B95EBA49AFBE /* accumulator.hxx in Sources */,
+				57C8BFC34AFCACB9A79093ED /* operator.hxx in Sources */,
+				BBFA894F593F2E0256A697C0 /* potts.hxx in Sources */,
+				92BB4B5F6F29BA9164BBB894 /* pottsg.hxx in Sources */,
+				8B43EF0A24E90A692F823690 /* pottsn.hxx in Sources */,
+				F306365FB7E6470342F18359 /* readme.txt in Sources */,
+				8E9E5C73731891B331E2A670 /* scaled_view.hxx in Sources */,
+				3A3B6ACEF3F46F3FD5BB9BFD /* singlesitefunction.hxx in Sources */,
+				DB82270AE301AB94F1CE7665 /* sparsemarray.hxx in Sources */,
+				F9D3B7ED8911B8EF75F88FD8 /* squared_difference.hxx in Sources */,
+				6130767C0F04C48BF55E254C /* truncated_absolute_difference.hxx in Sources */,
+				A471F9CF56B8532EA67DD91C /* truncated_squared_difference.hxx in Sources */,
+				BA1A8E6C1A3B6BF6F7C3D86D /* view.hxx in Sources */,
+				58D1A0E8692E6AB9F3455BD0 /* view_convert_function.hxx in Sources */,
+				F04E73ADE8740F7C9A9156DB /* view_fix_variables_function.hxx in Sources */,
+				3811738684DF6203F913FB65 /* graphicalmodeldecomposer.hxx in Sources */,
+				39C36167058B6F6FC489C33D /* graphicalmodeldecomposition.hxx in Sources */,
+				D2D4BBE549921E2518CA4A83 /* graphicalmodel.hxx in Sources */,
+				C809837C51ECA5183FD00A74 /* graphicalmodel_explicit_storage.hxx in Sources */,
+				83D9A8DEBC8D088B75E6B189 /* graphicalmodel_factor.hxx in Sources */,
+				438A74FADD92BE1DE1EBA8DB /* graphicalmodel_factor_accumulator.hxx in Sources */,
+				54D953D4D9D5663CC1382E85 /* graphicalmodel_factor_operator.hxx in Sources */,
+				42C109207D57A790056A6DD4 /* graphicalmodel_function_wrapper.hxx in Sources */,
+				8216E62253204B609AC35187 /* graphicalmodel_hdf5.hxx in Sources */,
+				C165C4EE9CEE99C1E7434ADB /* graphicalmodel_manipulator.hxx in Sources */,
+				420D3036E923B62092608A11 /* factorgraph.hxx in Sources */,
+				06B799DA699526753975FCD7 /* syntheticmodelgenerator.hxx in Sources */,
+				A88E5CE6D5786CF7D252F9E6 /* parameters.hxx in Sources */,
+				99B1A058157476B782F8E681 /* discretespace.hxx in Sources */,
+				7FBA57F768B9FF0FD92FD39A /* grid_space.hxx in Sources */,
+				421C575423E5583CB53D481E /* simplediscretespace.hxx in Sources */,
+				20178FC1ACAFA12FF97AD744 /* space_base.hxx in Sources */,
+				D67B1341E3B76E65CD939870 /* static_simplediscretespace.hxx in Sources */,
+				4A9525F00DFB1B9045665560 /* vector_view_space.hxx in Sources */,
+				52062C5934772CD175E8698F /* viewspace.hxx in Sources */,
+				4D18820A1DF5AA54C74B9986 /* alphabetaswap.hxx in Sources */,
+				5A74A7CDE5A57B7B34CE9DDD /* alphaexpansion.hxx in Sources */,
+				3612BA50444654FD89691E4C /* alphaexpansionfusion.hxx in Sources */,
+				8101966A18544B3B966DB6A5 /* astar.hxx in Sources */,
+				B31446D224F5C822C6FBE917 /* fusion_mover.hxx in Sources */,
+				A34F2B3C100630858907B63A /* lp_reparametrization.hxx in Sources */,
+				F0A1F47F47FBDF2363F3168C /* lp_reparametrization_hdf5.hxx in Sources */,
+				D95C5AAEE2809D5851F7DC38 /* lp_solver_cplex.hxx in Sources */,
+				25D7D0564F69485B862A8907 /* lp_solver_glpk.hxx in Sources */,
+				E8F61AFC887871BB103E2A58 /* lp_solver_gurobi.hxx in Sources */,
+				3EC46770D20F885560D5ACD3 /* lp_solver_interface.hxx in Sources */,
+				5AFB5FA63C4F7DB02A3FEE44 /* lpdef.hxx in Sources */,
+				DBFE8D1F9215B5454C7361F7 /* minstcutboost.hxx in Sources */,
+				25DF1F06536313A3CE325892 /* minstcutibfs.hxx in Sources */,
+				CC2A890AE54CA6F866BE755F /* minstcutkolmogorov.hxx in Sources */,
+				CD8806C522790CE5AC8058BA /* primal_lpbound.hxx in Sources */,
+				146A4874F544D6CC104D54CA /* smoothing_to_marginals.hxx in Sources */,
+				8A08739CEB5A438B9FB29D44 /* submodel_builder.hxx in Sources */,
+				246D01D1C7F37F991EE40B75 /* transportationsolver.hxx in Sources */,
+				994AFF898B23BC9945DBECCB /* bruteforce.hxx in Sources */,
+				C3CEBBA7060347246843F765 /* combilp.hxx in Sources */,
+				24954057FBB6FAEB5A175BFD /* dddualvariableblock.hxx in Sources */,
+				C7DC942C1C8CAE25B523603D /* dualdecomposition_base.hxx in Sources */,
+				6383A9E1DA8E037BC4F48BE7 /* dualdecomposition_bundle.hxx in Sources */,
+				F368774FB1DE8DDEF413D2A2 /* dualdecomposition_subgradient.hxx in Sources */,
+				1332E03E3C84FD28CBE623C7 /* dynamicprogramming.hxx in Sources */,
+				8B1D46FCA89A14974FC2CCC5 /* ad3.hxx in Sources */,
+				C673EC168C28E45A68EDFA27 /* daoopt.hxx in Sources */,
+				550C05793ADF96EA229F76BF /* fastPD.hxx in Sources */,
+				A7F9EB21F4836B5F1CC36841 /* gco.hxx in Sources */,
+				73F18063EEC9F4489742355A /* grante.hxx in Sources */,
+				9FF9606114A0051910172891 /* bp.hxx in Sources */,
+				0C98238D9DDE96C412AE4832 /* dec_map.hxx in Sources */,
+				85E2ABD01D1A46A5135D3DDC /* double_loop_generalized_bp.hxx in Sources */,
+				4DC7391EBF3438378454EBB4 /* exact.hxx in Sources */,
+				FC574E222D16E521953FD4EA /* fractional_bp.hxx in Sources */,
+				0B5B3E3073867E7E23F17F2D /* gibbs.hxx in Sources */,
+				0918AA0DED8FE3BAC3A676DF /* inference.hxx in Sources */,
+				FA695B61D05969888201067D /* junction_tree.hxx in Sources */,
+				DEB2AFDBF6FF8AE852608310 /* loop_corrected_bp.hxx in Sources */,
+				7EA83075D79963DF33143650 /* mean_field.hxx in Sources */,
+				99C603B9B48E227FABA1382F /* tree_expectation_propagation.hxx in Sources */,
+				0D7B9B0AFB4144BDF670E35A /* tree_reweighted_bp.hxx in Sources */,
+				3FC033B76D93AA012F5DF98F /* mplp.hxx in Sources */,
+				4433DF37BC069971755EE893 /* mrflib.hxx in Sources */,
+				3C638D44A0492E60C5E4E418 /* qpbo.hxx in Sources */,
+				07400C08BE9F7ED36C924211 /* trws.hxx in Sources */,
+				B1919155572F100F77F2F6BF /* LICENSE.txt in Sources */,
+				FBB0E4BD46EB8CDDD721C9E0 /* README.txt in Sources */,
+				50136B67A9F676688AED8711 /* fusion_based_inf.hxx in Sources */,
+				7893E1F2446DE2BD9A51C672 /* gibbs.hxx in Sources */,
+				A5CDCBAD022CC101FC0E7A63 /* graphcut.hxx in Sources */,
+				5AFA7E0E4571BBCDDE4247A3 /* greedygremlin.hxx in Sources */,
+				B545DA4E993B3D1A3DFDE9CE /* hqpbo.hxx in Sources */,
+				F0CBB08970AD5EA4B5E74CD6 /* icm.hxx in Sources */,
+				4E106B4275BA6406127CF56F /* infandflip.hxx in Sources */,
+				C10D6F2BBA08C1DEBFB3A336 /* inference.hxx in Sources */,
+				B388B5F0E8F2B7C8F18A0044 /* lazyflipper.hxx in Sources */,
+				276CBE36FD397BAEC1BAA0B7 /* loc.hxx in Sources */,
+				41B6A94AFB7EDB09FC9749AD /* lpcplex.hxx in Sources */,
+				40B353494468DEEB363AEA37 /* lpgurobi.hxx in Sources */,
+				16105B7CDCCD02828A636B98 /* lsatr.hxx in Sources */,
+				A427E19643668BC462FB2188 /* messagepassing.hxx in Sources */,
+				26C101999E5421149DEB316C /* messagepassing_bp.hxx in Sources */,
+				F04D5AD7541742872A5344BF /* messagepassing_buffer.hxx in Sources */,
+				5A9840BA5C952D4D86E8C884 /* messagepassing_operations.hxx in Sources */,
+				D8E828D19DB0CDC73C7BA2FF /* messagepassing_operations_withFunctors.hxx in Sources */,
+				0411B239363DC56D82D34D55 /* messagepassing_trbp.hxx in Sources */,
+				BE347B0D526CA74818FB78DA /* movemaker.hxx in Sources */,
+				CB593553FC3CF76E66F68741 /* mqpbo.hxx in Sources */,
+				616CA425A6942B5E5E0098E1 /* multicut.hxx in Sources */,
+				D06B0C5E3BAB0ECF6AA33AA0 /* partition-move.hxx in Sources */,
+				A274D8CA5A6558B01FB1077E /* qpbo.hxx in Sources */,
+				EAADD0604346F0D0BF97F6AA /* reducedinference.hxx in Sources */,
+				1AC6ACF09C529BCC185BCA96 /* sat.hxx in Sources */,
+				3CA02AEAA1E29B2A217BCB71 /* self_fusion.hxx in Sources */,
+				37E49F5BE36E867E14AA8C1D /* swendsenwang.hxx in Sources */,
+				24ED6F54F4E80A3D1F626BB1 /* output_debug_utils.hxx in Sources */,
+				9825575B8DAD4102F4A76A26 /* smooth_nesterov.hxx in Sources */,
+				1F36EC8F37144D68B9466639 /* smoothing_strategy.hxx in Sources */,
+				A6A13EFC591E96724290BD74 /* trws_adsal.hxx in Sources */,
+				EC7708F667DD347B48EEDD20 /* trws_base.hxx in Sources */,
+				78540D5C556199F6F2151A10 /* trws_decomposition.hxx in Sources */,
+				90DF7FD6E88F796AD44D7F6F /* trws_reparametrization.hxx in Sources */,
+				A9EB4D8E484C28F9317F1B24 /* trws_subproblemsolver.hxx in Sources */,
+				1ADF6F1C021675BE8ABF9276 /* trws_trws.hxx in Sources */,
+				3FDAAA8323C317CB239E94BB /* utilities2.hxx in Sources */,
+				85347017ADEAE13ED62CC0F2 /* visitors.hxx in Sources */,
+				DA4AADF4699928F614476C5E /* syntheticmodelgenerator.hxx in Sources */,
+				2D8C10CC2C3078E441C7B2CE /* opengm.hxx in Sources */,
+				950BAF38DFDD96D7E4E63CDA /* adder.hxx in Sources */,
+				07185E8F72E7B60B2D99B81B /* and.hxx in Sources */,
+				F5581D52C13A873A06F0C18B /* integrator.hxx in Sources */,
+				7E8B5C095706D8A69409337C /* maximizer.hxx in Sources */,
+				9DB00920E9F643E048C58931 /* minimizer.hxx in Sources */,
+				10CDD7B88FFEB837C5365506 /* multiplier.hxx in Sources */,
+				6236337A61D82151594DEDDF /* normalize.hxx in Sources */,
+				9670DC25C5CDF2F9321C6A5C /* or.hxx in Sources */,
+				2A940A3471A0F2BCAF2D9381 /* weightedoperations.hxx in Sources */,
+				164D3135324441C2E6DD40D7 /* converter.hxx in Sources */,
+				3C5750C4E89DBFC2D32C6061 /* numpyview.hxx in Sources */,
+				D5E2892B9C2B8DCA92DE7C8F /* opengmpython.hxx in Sources */,
+				3228C6CB778D458D89860E0D /* pythonfunction.hxx in Sources */,
+				F3081B7F7F7CD4B2D5611962 /* blackboxtester.hxx in Sources */,
+				5B0D9B48770EA87057BB4AC0 /* blackboxtestbase.hxx in Sources */,
+				84316B063F2561C516874EC4 /* blackboxtestfull.hxx in Sources */,
+				4F8602E2D7BA8DA7C173DC25 /* blackboxtestgrid.hxx in Sources */,
+				A5615C67D7BA449A1D740D98 /* blackboxteststar.hxx in Sources */,
+				4408D4DEE6EEC01C6CD815B4 /* inferencetester.hxx in Sources */,
+				1DA1F9038DC14A38D29C0D95 /* test_base.hxx in Sources */,
+				966510945611C83CE5B5987E /* test_blackbox.hxx in Sources */,
+				F4EEDBD83A5FC3CFD650CF5E /* test_empty.hxx in Sources */,
+				26B1D8301B391CC83FA3F996 /* test_functions.hxx in Sources */,
+				9311882519EC440CFA9C9E02 /* test_hdf5_file.hxx in Sources */,
+				FB89BB0B0E816CBAD762AE4A /* test_multimode.hxx in Sources */,
+				E220028FC6CC721920FDCF24 /* test.hxx in Sources */,
+				13F3A5BA1AE21A8748B34DB2 /* test_inference_blackboxtest.hxx in Sources */,
+				4EDF2256B6967675FAA84B67 /* accessor_iterator.hxx in Sources */,
+				33A34060EB789783878972FD /* accumulation.hxx in Sources */,
+				604530A19FF32BF5BF992ACB /* disjoint-set.hxx in Sources */,
+				3F40360EB51399F6F23F1BB1 /* functors.hxx in Sources */,
+				947EA02FD92CABF040C9C3D6 /* indexing.hxx in Sources */,
+				62C1213DC961F730021EF997 /* macros.hxx in Sources */,
+				DF8980E52CBEE5AE1F7B7323 /* meminfo.hxx in Sources */,
+				16A6A599B47540689E134A20 /* metaprogramming.hxx in Sources */,
+				14B4C94A7A49C138DC60FD48 /* modelTrees.hxx in Sources */,
+				0F383516C0E411D819B4B4BE /* random.hxx in Sources */,
+				B8019178937471B25EDE3C74 /* shape_accessor.hxx in Sources */,
+				78DAD81DCF5C123CC6744CDF /* sorting.hxx in Sources */,
+				8187A2FF449C420AB440016F /* timer.hxx in Sources */,
+				BD0EE6BDB19E328496248B40 /* tribool.hxx in Sources */,
+				DCD4AAB7A75548CD7963C363 /* vector_view.hxx in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxopengm/libs,
+					../../../addons/ofxopengm/src,
+					../../../addons/ofxopengm/src/opengm,
+					../../../addons/ofxopengm/src/opengm/datastructures,
+					../../../addons/ofxopengm/src/opengm/datastructures/marray,
+					../../../addons/ofxopengm/src/opengm/datastructures/sparsemarray,
+					../../../addons/ofxopengm/src/opengm/doxygen,
+					../../../addons/ofxopengm/src/opengm/functions,
+					../../../addons/ofxopengm/src/opengm/functions/operations,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel/decomposition,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel/graphviews,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel/modelgenerators,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel/space,
+					../../../addons/ofxopengm/src/opengm/inference,
+					../../../addons/ofxopengm/src/opengm/inference/auxiliary,
+					../../../addons/ofxopengm/src/opengm/inference/auxiliary/fusion_move,
+					../../../addons/ofxopengm/src/opengm/inference/auxiliary/lp_solver,
+					../../../addons/ofxopengm/src/opengm/inference/auxiliary/submodel,
+					../../../addons/ofxopengm/src/opengm/inference/dualdecomposition,
+					../../../addons/ofxopengm/src/opengm/inference/external,
+					../../../addons/ofxopengm/src/opengm/inference/external/libdai,
+					"../../../addons/ofxopengm/src/opengm/inference/fix-fusion",
+					../../../addons/ofxopengm/src/opengm/inference/messagepassing,
+					../../../addons/ofxopengm/src/opengm/inference/trws,
+					../../../addons/ofxopengm/src/opengm/inference/visitors,
+					../../../addons/ofxopengm/src/opengm/models,
+					../../../addons/ofxopengm/src/opengm/operations,
+					../../../addons/ofxopengm/src/opengm/python,
+					../../../addons/ofxopengm/src/opengm/unittests,
+					../../../addons/ofxopengm/src/opengm/unittests/blackboxtests,
+					../../../addons/ofxopengm/src/opengm/unittests/inferencetests,
+					../../../addons/ofxopengm/src/opengm/utilities,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxopengm/libs,
+					../../../addons/ofxopengm/src,
+					../../../addons/ofxopengm/src/opengm,
+					../../../addons/ofxopengm/src/opengm/datastructures,
+					../../../addons/ofxopengm/src/opengm/datastructures/marray,
+					../../../addons/ofxopengm/src/opengm/datastructures/sparsemarray,
+					../../../addons/ofxopengm/src/opengm/doxygen,
+					../../../addons/ofxopengm/src/opengm/functions,
+					../../../addons/ofxopengm/src/opengm/functions/operations,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel/decomposition,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel/graphviews,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel/modelgenerators,
+					../../../addons/ofxopengm/src/opengm/graphicalmodel/space,
+					../../../addons/ofxopengm/src/opengm/inference,
+					../../../addons/ofxopengm/src/opengm/inference/auxiliary,
+					../../../addons/ofxopengm/src/opengm/inference/auxiliary/fusion_move,
+					../../../addons/ofxopengm/src/opengm/inference/auxiliary/lp_solver,
+					../../../addons/ofxopengm/src/opengm/inference/auxiliary/submodel,
+					../../../addons/ofxopengm/src/opengm/inference/dualdecomposition,
+					../../../addons/ofxopengm/src/opengm/inference/external,
+					../../../addons/ofxopengm/src/opengm/inference/external/libdai,
+					"../../../addons/ofxopengm/src/opengm/inference/fix-fusion",
+					../../../addons/ofxopengm/src/opengm/inference/messagepassing,
+					../../../addons/ofxopengm/src/opengm/inference/trws,
+					../../../addons/ofxopengm/src/opengm/inference/visitors,
+					../../../addons/ofxopengm/src/opengm/models,
+					../../../addons/ofxopengm/src/opengm/operations,
+					../../../addons/ofxopengm/src/opengm/python,
+					../../../addons/ofxopengm/src/opengm/unittests,
+					../../../addons/ofxopengm/src/opengm/unittests/blackboxtests,
+					../../../addons/ofxopengm/src/opengm/unittests/inferencetests,
+					../../../addons/ofxopengm/src/opengm/utilities,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "RBM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "RBM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
